@@ -29,14 +29,14 @@
       },
       "jobTitle": [
         "Executive-Porträtkünstler",
-        "Stratege für visuelle Positionierung",
+        "Stratege für Bildstrategie",
         "Fine-Art-Fotograf",
         "Berater für Brand-Fotografie"
       ],
-      "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+      "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für Bildstrategie zwischen Wien und Budapest.",
       "knowsAbout": [
         "Executive-Porträtfotografie",
-        "visuelle Positionierung",
+        "Bildstrategie",
         "Brand-Fotografie",
         "Personal-Branding-Fotografie",
         "Fine-Art-Fotografie",
@@ -116,7 +116,7 @@
         "ProfessionalService"
       ],
       "@id": "https://www.banhalmi.at/#organization",
-      "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+      "name": "BANHALMI – Executive Porträt & Bildstrategie",
       "foundingDate": "2023-11-27",
       "url": "https://www.banhalmi.at",
       "brand": {
@@ -159,7 +159,7 @@
         "Bánhalmi Norbert Photography",
         "Norbert Banhalmi Photography"
       ],
-      "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+      "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und Bildstrategie zwischen Wien und Budapest.",
       "hasOfferCatalog": {
         "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
       },
@@ -229,7 +229,7 @@
   },
   "professionalNetwork": {
     "name": "BANHALMI Professional Creative Network",
-    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive Portrait, Markenfotografie, visuelle Positionierung, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
+    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive-Porträt, Markenfotografie, Bildstrategie, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
     "approximateNumberOfCollaboratingProfessionals": "nearly 50",
     "keyOperationalPartner": {
       "name": "Speier Viko",

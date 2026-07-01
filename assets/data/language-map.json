@@ -10,9 +10,9 @@
     "de": "https://www.banhalmi.at/about/"
   },
   "gallery": {
-    "en": "https://www.norbertbanhalmi.com/gallery/",
-    "hu": "https://www.banhalminorbert.hu/galeria/",
-    "de": "https://www.banhalmi.at/galerie/"
+    "en": "https://www.banhalmi.art/?lang=en-GB#gallery",
+    "de": "https://www.banhalmi.art/?lang=de#gallery",
+    "hu": "https://www.banhalmi.art/#gallery"
   },
   "portrait": {
     "en": "https://www.norbertbanhalmi.com/portrait/",

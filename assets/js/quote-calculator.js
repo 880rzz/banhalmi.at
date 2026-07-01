@@ -20,7 +20,7 @@
   };
   var pricingLoaded = false;
   function applyPricingJson(data){
-    if(!data || !data.priceComponentsGrossEUR) return;
+    if(!data ||!data.priceComponentsGrossEUR) return;
     var p = data.priceComponentsGrossEUR;
     pricesGross.quick30 = Number(p.individualQuick30 || pricesGross.quick30);
     pricesGross.guided60 = Number(p.individualGuided60 || pricesGross.guided60);
@@ -58,7 +58,7 @@
   function loadPricing(){
     if (!window.fetch) return Promise.resolve(false);
     return fetch('/pricing.json', {cache:'no-store'}).then(function(resp){
-      if(!resp || !resp.ok) throw new Error('pricing unavailable');
+      if(!resp ||!resp.ok) throw new Error('pricing unavailable');
       return resp.json();
     }).then(function(data){
       applyPricingJson(data);
@@ -68,11 +68,11 @@
   }
   function money(v){ return '€' + Math.round(v).toLocaleString('de-DE'); }
   function checked(form,name){ return Array.prototype.slice.call(form.querySelectorAll('[name="'+name+'"]:checked')).map(function(i){return i.value;}); }
-  function val(form,name, fallback){ var el=form.querySelector('[name="'+name+'"]:checked')||form.querySelector('[name="'+name+'"]'); return el ? el.value : fallback; }
+  function val(form,name, fallback){ var el=form.querySelector('[name="'+name+'"]:checked')||form.querySelector('[name="'+name+'"]'); return el? el.value: fallback; }
   function num(form,name,fallback){ var el=form.querySelector('[name="'+name+'"]'); var n=el?parseInt(el.value,10):fallback; return isNaN(n)?fallback:n; }
   function numericSelect(form,name,fallback){ var el=form.querySelector('[name="'+name+'"]'); var n=el?parseInt(el.value,10):fallback; return isNaN(n)?fallback:n; }
   function extraPhotographerCost(form, cat, durationHours){
-    var team = cat === 'group' ? numericSelect(form,'photographers',1) : numericSelect(form,'photographer_team',1);
+    var team = cat === 'group'? numericSelect(form,'photographers',1): numericSelect(form,'photographer_team',1);
     var extra = Math.max(0, team-1);
     if(!extra) return {cost:0, count:0};
     if(cat === 'event') return {cost: extra * pricesGross.extraPhotographerEventHour * Math.max(1,durationHours || 1), count: extra};
@@ -82,15 +82,15 @@
     var raw=(vatid||'').toUpperCase().replace(/[^A-Z0-9]/g,'');
     if(!company || raw.length<4) return false;
     var prefix=raw.slice(0,2);
-    return prefix !== 'AT' && EU_PREFIXES.indexOf(prefix) !== -1;
+    return prefix!== 'AT' && EU_PREFIXES.indexOf(prefix)!== -1;
   }
   function updatePanels(form){
     var cat=val(form,'category','individual');
-    form.querySelectorAll('[data-panel]').forEach(function(p){ p.hidden = p.getAttribute('data-panel') !== cat; });
+    form.querySelectorAll('[data-panel]').forEach(function(p){ p.hidden = p.getAttribute('data-panel')!== cat; });
     var delivery=val(form,'group_delivery','later');
     var people=form.querySelector('[name="people_count"]');
     if(cat==='group' && delivery==='instant' && people && parseInt(people.value,10)>6){ people.value=6; }
-    if(people){ people.max = (cat==='group' && delivery==='instant') ? 6 : 200; }
+    if(people){ people.max = (cat==='group' && delivery==='instant')? 6: 200; }
   }
   function calc(form){
     updatePanels(form);
@@ -98,7 +98,7 @@
     var gross=0, parts=[];
     var retouches=Math.max(1,num(form,'retouched_images',1));
     if(cat==='individual'){
-      var m=val(form,'individual_mode','quick30'); gross += pricesGross[m] || pricesGross.quick30; parts.push(m);
+      var m=val(form,'individual_mode','quick30'); gross += pricesGross[m] || pricesGross.quick30; parts.push(m.replace(/[0-9]+$/, '').replace('quick', 'quick portrait').replace('guided', 'guided portrait'));
       if(retouches>1){ gross += (retouches-1)*pricesGross.retouchPortrait; parts.push('extra retouched images: '+(retouches-1)); }
     } else if(cat==='group'){
       var people=Math.max(1,num(form,'people_count',6)); var delivery=val(form,'group_delivery','later');
@@ -107,7 +107,7 @@
       var groupExtra = extraPhotographerCost(form, cat, 1);
       if(groupExtra.count>0){ gross += groupExtra.cost; parts.push('additional photographers: '+groupExtra.count); }
     } else if(cat==='brand'){
-      var b=val(form,'brand_duration','brand60'); gross += pricesGross[b] || pricesGross.brand60; parts.push(b);
+      var b=val(form,'brand_duration','brand60'); gross += pricesGross[b] || pricesGross.brand60; parts.push(b.replace('brand', 'brand session '));
       gross += Math.max(0,retouches-3)*pricesGross.retouchPortrait; parts.push('retouched images: '+retouches);
       var brandExtra = extraPhotographerCost(form, cat, 1); if(brandExtra.count>0){ gross += brandExtra.cost; parts.push('additional photographers: '+brandExtra.count); }
     } else if(cat==='art'){
@@ -115,7 +115,7 @@
       gross += Math.max(0,retouches-2)*pricesGross.retouchArt; parts.push('retouched images: '+retouches);
       var artExtra = extraPhotographerCost(form, cat, 1); if(artExtra.count>0){ gross += artExtra.cost; parts.push('additional photographers: '+artExtra.count); }
     } else if(cat==='event'){
-      var ev=val(form,'event_duration','event60'); gross += pricesGross[ev] || pricesGross.event60; parts.push(ev);
+      var ev=val(form,'event_duration','event60'); gross += pricesGross[ev] || pricesGross.event60; parts.push(ev.replace('event', 'event coverage '));
       var eventHours = ({event60:1,event120:2,event180:3,event240:4,eventFullDay:8})[ev] || 1;
       gross += Math.max(0,retouches-3)*pricesGross.retouchPortrait; parts.push('retouched images: '+retouches);
       var eventExtra = extraPhotographerCost(form, cat, eventHours); if(eventExtra.count>0){ gross += eventExtra.cost; parts.push('additional event photographers: '+eventExtra.count+' x '+eventHours+'h'); }
@@ -124,18 +124,18 @@
     var company=(form.querySelector('[name="company"]')||{}).value||'';
     var reverse=isReverseCharge((form.querySelector('[data-vat-id]')||{}).value||'', company);
     var net = gross/(1+VAT);
-    var vat = reverse ? 0 : gross-net;
-    var total = reverse ? net : gross;
+    var vat = reverse? 0: gross-net;
+    var total = reverse? net: gross;
     return {
       gross: Math.round(total),
       grossBeforeVatMode: Math.round(gross),
       net: Math.round(net),
       vat: Math.round(vat),
       reverse: reverse,
-      vatMode: reverse ? 'reverse-charge-0-vat' : 'austrian-vat-20',
+      vatMode: reverse? 'reverse-charge-0-vat': 'austrian-vat-20',
       parts: parts.join(', '),
       category: cat,
-      pricingSource: pricingLoaded ? 'pricing.json' : 'pricing.json fallback',
+      pricingSource: pricingLoaded? 'pricing.json': 'pricing.json fallback',
       prices: pricesGross
     };
   }
@@ -146,7 +146,7 @@
     var total=box.querySelector('[data-total]'), net=box.querySelector('[data-net]'), vat=box.querySelector('[data-vat]'), note=box.querySelector('[data-vat-note]');
     if(total) total.textContent=money(c.gross); if(net) net.textContent=money(c.net); if(vat) vat.textContent=money(c.vat); if(note) note.textContent=c.reverse?l.reverse:l.vat20;
     var hNet=form.querySelector('[data-estimate-net]'), hVat=form.querySelector('[data-estimate-vat]'), hGross=form.querySelector('[data-estimate-gross]'), hMode=form.querySelector('[data-estimate-vat-mode]'), hSummary=form.querySelector('[data-estimate-summary]');
-    if(hNet) hNet.value=c.net; if(hVat) hVat.value=c.vat; if(hGross) hGross.value=c.gross; if(hMode) hMode.value=c.vatMode; if(hSummary) hSummary.value=c.parts + ' | pricing source: ' + c.pricingSource;
+    if(hNet) hNet.value=c.net; if(hVat) hVat.value=c.vat; if(hGross) hGross.value=c.gross; if(hMode) hMode.value=c.vatMode; if(hSummary) hSummary.value=c.parts;
     return c;
   }
   function initForm(form){

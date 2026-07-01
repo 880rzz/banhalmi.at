@@ -9,6 +9,11 @@
     "hu": "https://www.banhalminorbert.hu/rolam/",
     "de": "https://www.banhalmi.at/about/"
   },
+  "gallery": {
+    "en": "https://www.norbertbanhalmi.com/gallery/",
+    "hu": "https://www.banhalminorbert.hu/galeria/",
+    "de": "https://www.banhalmi.at/galerie/"
+  },
   "portrait": {
     "en": "https://www.norbertbanhalmi.com/portrait/",
     "hu": "https://www.banhalminorbert.hu/headshot-fotozas/",

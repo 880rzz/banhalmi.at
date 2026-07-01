@@ -10,7 +10,7 @@
       nav.classList.toggle("open");
       btn.setAttribute("aria-expanded", nav.classList.contains("open"));
     });
-    nav.querySelectorAll(".nav-links a, .lang-switch a").forEach(function (a) {
+    nav.querySelectorAll(".nav-links a,.lang-switch a").forEach(function (a) {
       a.addEventListener("click", function () {
         nav.classList.remove("open");
         btn.setAttribute("aria-expanded", "false");
@@ -22,14 +22,14 @@
 
   // Production 2.3 navigation hardening: close on outside click and Escape.
   document.addEventListener("click", function (event) {
-    if (!nav || !btn || !nav.classList.contains("open")) return;
+    if (!nav ||!btn ||!nav.classList.contains("open")) return;
     if (!nav.contains(event.target)) {
       nav.classList.remove("open");
       btn.setAttribute("aria-expanded", "false");
     }
   });
   document.addEventListener("keydown", function (event) {
-    if (!nav || !btn) return;
+    if (!nav ||!btn) return;
     if (event.key === "Escape" && nav.classList.contains("open")) {
       nav.classList.remove("open");
       btn.setAttribute("aria-expanded", "false");
@@ -73,7 +73,7 @@
       ti.src = "https://cdn.trustindex.io/assets/js/richsnippet.js?c307c9433572g62e";
       document.head.appendChild(ti);
     }
-    if (document.querySelector('[class*="elfsight-app-"]') && !document.getElementById("elfsight-platform")) {
+    if (document.querySelector('[class*="elfsight-app-"]') &&!document.getElementById("elfsight-platform")) {
       var ef = document.createElement("script");
       ef.id = "elfsight-platform";
       ef.type = "text/javascript";
@@ -119,7 +119,7 @@
     var copy = {
       en: {
         small:'This usually fits a focused 30-minute Executive Headshot: one strong portrait for LinkedIn, press or a website profile.',
-        medium:'This usually fits an Executive Portrait session with calmer preparation, guided image selection and more strategic use.',
+        medium:'This usually fits an Executive-Porträt session with calmer preparation, guided image selection and more strategic use.',
         large:'This can support Personal Branding or a broader portrait set for website, media and public communication.',
         xlarge:'This range is suitable for team, event or corporate visual systems, depending on scope and usage rights.',
         custom:'For larger or mixed projects, a personal quote is the right way to define scope, licensing and delivery rhythm.',
@@ -127,15 +127,15 @@
       },
       hu: {
         small:'Ez jellemzően egy fókuszált, 30 perces Executive Headshot keret: egy erős portré LinkedInre, sajtóhoz vagy weboldalra.',
-        medium:'Ebbe általában egy nyugodtabb Executive Portrait folyamat fér bele, előkészítéssel, irányított képkiválasztással és stratégiai felhasználással.',
+        medium:'Ebbe általában egy nyugodtabb Executive-Porträt folyamat fér bele, előkészítéssel, irányított képkiválasztással és stratégiai felhasználással.',
         large:'Ez már alkalmas personal branding vagy több képből álló portrésorozat tervezésére weboldalra, médiára és nyilvános kommunikációra.',
         xlarge:'Ez a tartomány csapat-, rendezvény- vagy vállalati vizuális rendszerhez illik, a terjedelemtől és felhasználási jogoktól függően.',
         custom:'Nagyobb vagy vegyes projektnél személyes ajánlat szükséges, hogy a terjedelem, jogok és átadási ritmus tiszta legyen.',
-        unsure:'Ha még nem biztos a keret, írd le az eredményt, amit szeretnél. A legkisebb korrekt formátumot fogom javasolni.'
+        unsure:'Ha még nem biztos a keret, írja le, milyen eredményre van szüksége. A legkisebb korrekt formátumot fogom javasolni.'
       },
       de: {
         small:'Das passt meist zu einem fokussierten 30-Minuten Executive Headshot: ein starkes Portrait für LinkedIn, Presse oder Website.',
-        medium:'Das passt meist zu einer Executive Portrait Session mit ruhiger Vorbereitung, geführter Auswahl und strategischer Nutzung.',
+        medium:'Das passt meist zu einer Executive-Porträt Session mit ruhiger Vorbereitung, geführter Auswahl und strategischer Nutzung.',
         large:'Damit lässt sich Personal Branding oder ein breiteres Portrait-Set für Website, Medien und öffentliche Kommunikation planen.',
         xlarge:'Dieser Rahmen eignet sich für Team-, Event- oder Corporate-Visual-Systeme, abhängig von Umfang und Nutzungsrechten.',
         custom:'Für größere oder gemischte Projekte ist ein persönliches Angebot sinnvoll, damit Umfang, Rechte und Lieferung klar sind.',
@@ -146,7 +146,7 @@
       if(!box) return;
       while(box.firstChild){ box.removeChild(box.firstChild); }
       var strong = document.createElement('strong');
-      strong.textContent = (sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '');
+      strong.textContent = (sel.options[sel.selectedIndex]? sel.options[sel.selectedIndex].text: '');
       box.appendChild(strong);
       box.appendChild(document.createElement('br'));
       box.appendChild(document.createTextNode((copy[lang][sel.value] || '')));
@@ -159,14 +159,14 @@
   // Expected server response: { "ok": true, "submissionId": "..." }. No silent success.
   function readField(form, name) {
     var el = form.querySelector('[name="' + name + '"]');
-    return el ? String(el.value || '').trim() : '';
+    return el? String(el.value || '').trim(): '';
   }
   function readChecked(form, name) {
     return Array.prototype.slice.call(form.querySelectorAll('[name="' + name + '"]:checked')).map(function (el) { return el.value; });
   }
   function readRadio(form, name) {
     var el = form.querySelector('[name="' + name + '"]:checked');
-    return el ? el.value : '';
+    return el? el.value: '';
   }
   function normalizeVatId(value) {
     return String(value || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
@@ -176,24 +176,24 @@
     var raw = normalizeVatId(vatId);
     if (!companyName || raw.length < 4) return false;
     var prefix = raw.slice(0, 2);
-    return prefix !== 'AT' && prefixes.indexOf(prefix) !== -1;
+    return prefix!== 'AT' && prefixes.indexOf(prefix)!== -1;
   }
   function categoryLabel(category, lang) {
     var map = {
-      en: {individual:'Individual portrait', group:'Group portraits', brand:'Brand & visual positioning', art:'Fine art photography', event:'C-level event photography'},
-      hu: {individual:'Egyéni portré', group:'Csoportos portré', brand:'Brand és vizuális pozicionálás', art:'Művészi fotózás', event:'C-szintű rendezvényfotózás'},
-      de: {individual:'Einzelportrait', group:'Gruppenportraits', brand:'Brand & visuelle Positionierung', art:'Fine-Art-Fotografie', event:'C-Level Eventfotografie'}
+      en: {individual:'Individual portrait', group:'Group portraits', brand:'Brand photography', art:'Fine art photography', event:'C-level event photography'},
+      hu: {individual:'Egyéni portré', group:'Csoportos portré', brand:'Brand fotózás', art:'Művészi fotózás', event:'C-szintű rendezvényfotózás'},
+      de: {individual:'Einzelporträt', group:'Gruppenporträts', brand:'Brand-Fotografie', art:'Fine-Art-Fotografie', event:'C-Level-Eventfotografie'}
     };
     return (map[lang] && map[lang][category]) || category;
   }
   function buildQuotePayload(form) {
     var lang = form.getAttribute('data-lang') || document.documentElement.lang || 'en';
     var quoteEngine = window.BANHALMI_QUOTE;
-    var estimate = quoteEngine && typeof quoteEngine.paint === 'function' ? quoteEngine.paint(form) : quoteEngine && typeof quoteEngine.calculate === 'function' ? quoteEngine.calculate(form) : null;
+    var estimate = quoteEngine && typeof quoteEngine.paint === 'function'? quoteEngine.paint(form): quoteEngine && typeof quoteEngine.calculate === 'function'? quoteEngine.calculate(form): null;
     var category = readRadio(form, 'category') || 'individual';
     var companyName = readField(form, 'company');
     var vatId = readField(form, 'vat_id');
-    var reverse = estimate ? !!estimate.reverse : isEuReverseChargeEligible(vatId, companyName);
+    var reverse = estimate?!!estimate.reverse: isEuReverseChargeEligible(vatId, companyName);
     var addons = readChecked(form, 'addons');
     var payload = {
       language: lang,
@@ -208,10 +208,10 @@
       peopleCount: '',
       retouchedImages: readField(form, 'retouched_images'),
       retouchMode: '',
-      photographerCount: category === 'group' ? readField(form, 'photographers') : (readField(form, 'photographer_team') || ''),
+      photographerCount: category === 'group'? readField(form, 'photographers'): (readField(form, 'photographer_team') || ''),
       coordinationPreference: readField(form, 'coordination_preference'),
       projectGoals: readChecked(form, 'project_goals').join(', '),
-      amchamMember: !!form.querySelector('[name="amcham_member"]:checked'),
+      amchamMember:!!form.querySelector('[name="amcham_member"]:checked'),
       amchamCountry: readField(form, 'amcham_country'),
       amchamBenefit: '',
       locationType: readField(form, 'location'),
@@ -220,10 +220,10 @@
       preferredTime: readField(form, 'preferred_time'),
       addons: addons.join(', '),
       budget: readField(form, 'budget'),
-      netAmount: estimate ? String(estimate.net) : readField(form, 'estimate_net'),
-      vatRate: reverse ? '0%' : '20%',
-      vatAmount: estimate ? String(estimate.vat) : readField(form, 'estimate_vat'),
-      grossAmount: estimate ? String(estimate.gross) : readField(form, 'estimate_gross'),
+      netAmount: estimate? String(estimate.net): readField(form, 'estimate_net'),
+      vatRate: reverse? '0%': '20%',
+      vatAmount: estimate? String(estimate.vat): readField(form, 'estimate_vat'),
+      grossAmount: estimate? String(estimate.gross): readField(form, 'estimate_gross'),
       reverseCharge: reverse,
       euVatNumber: normalizeVatId(vatId),
       name: readField(form, 'name'),
@@ -232,19 +232,19 @@
       companyName: companyName,
       billingAddress: readField(form, 'billing_address'),
       message: readField(form, 'message'),
-      consent: !!form.querySelector('[name="consent"]:checked'),
-      sendCopy: !!form.querySelector('[name="send_copy"]:checked'),
-      estimateSummary: estimate ? estimate.parts + ' | pricing source: ' + estimate.pricingSource : readField(form, 'estimate_summary'),
-      estimateVatMode: estimate ? estimate.vatMode : readField(form, 'estimate_vat_mode')
+      consent:!!form.querySelector('[name="consent"]:checked'),
+      sendCopy:!!form.querySelector('[name="send_copy"]:checked'),
+      estimateSummary: estimate? estimate.parts: readField(form, 'estimate_summary'),
+      estimateVatMode: estimate? estimate.vatMode: readField(form, 'estimate_vat_mode')
     };
     if (category === 'individual') {
       payload.packageName = readRadio(form, 'individual_mode');
-      payload.duration = payload.packageName === 'quick30' ? '30 minutes' : (payload.packageName === 'guided120' ? '2 hours' : '1 hour');
+      payload.duration = payload.packageName === 'quick30'? '30 minutes': (payload.packageName === 'guided120'? '2 hours': '1 hour');
       payload.retouchMode = 'selected retouched images';
     } else if (category === 'group') {
       payload.peopleCount = readField(form, 'people_count');
       payload.photographerCount = readField(form, 'photographers') || readField(form, 'photographer_team');
-      payload.retouchMode = readRadio(form, 'group_delivery') === 'instant' ? 'immediate retouching / max 6 people' : 'later retouching / originals delivered immediately / 48h retouching';
+      payload.retouchMode = readRadio(form, 'group_delivery') === 'instant'? 'immediate retouching / max 6 people': 'later retouching / originals delivered immediately / 48h retouching';
       payload.packageName = 'group-' + (readRadio(form, 'group_delivery') || 'later');
       payload.duration = 'from 1 hour, depending on team size';
     } else if (category === 'brand') {
@@ -271,12 +271,12 @@
   }
   function buildGenericPayload(form) {
     var data = new FormData(form);
-    var payload = { language: form.getAttribute('data-lang') || document.documentElement.lang || 'en', pageUrl: window.location.href, payloadVersion: 'banhalmi-contact-v2', formType: form.getAttribute('data-form-kind') || 'contact', formTitle: form.getAttribute('data-form-title') || 'BANHALMI contact form', category: form.getAttribute('data-form-kind') === 'contact' ? 'Contact' : '' };
+    var payload = { language: form.getAttribute('data-lang') || document.documentElement.lang || 'en', pageUrl: window.location.href, payloadVersion: 'banhalmi-contact-v2', formType: form.getAttribute('data-form-kind') || 'contact', formTitle: form.getAttribute('data-form-title') || 'BANHALMI contact form', category: form.getAttribute('data-form-kind') === 'contact'? 'Contact': '' };
     data.forEach(function (value, key) {
       if (key === 'website') return;
       payload[key] = value;
     });
-    payload.consent = !!form.querySelector('[name="consent"]:checked');
+    payload.consent =!!form.querySelector('[name="consent"]:checked');
     return payload;
   }
 
@@ -286,8 +286,8 @@
     var lang = form.getAttribute('data-lang') || document.documentElement.lang || 'en';
     var labels = {
       en: {service:'Service', location:'Location', date:'Preferred date', photographers:'Photographer(s)', retouch:'Retouched images', budget:'Budget', amcham:'AmCham member', yes:'Yes — Professional Network Benefit applies', no:'No / not specified'},
-      hu: {service:'Szolgáltatás', location:'Helyszín', date:'Időpontpreferencia', photographers:'Fotósok száma', retouch:'Retusált képek', budget:'Költségkeret', amcham:'AmCham tagság', yes:'Igen — Professional Network Benefit érvényes', no:'Nem / nincs megadva'},
-      de: {service:'Leistung', location:'Ort', date:'Wunschtermin', photographers:'Fotograf(en)', retouch:'Retuschierte Bilder', budget:'Budgetrahmen', amcham:'AmCham Mitgliedschaft', yes:'Ja — Professional Network Benefit gilt', no:'Nein / nicht angegeben'}
+      hu: {service:'Szolgáltatás', location:'Helyszín', date:'Időpontpreferencia', photographers:'Fotósok száma', retouch:'Retusált képek száma', budget:'Költségkeret', amcham:'AmCham-tagság', yes:'Igen — szakmai hálózati kedvezmény figyelembe véve', no:'Nem / nincs megadva'},
+      de: {service:'Leistung', location:'Ort', date:'Wunschtermin', photographers:'Fotograf:innen', retouch:'Retuschierte Bilder', budget:'Budgetrahmen', amcham:'AmCham-Mitgliedschaft', yes:'Ja — Netzwerkvorteil berücksichtigt', no:'Nein / nicht angegeben'}
     };
     var l = labels[lang] || labels.en;
     var service = categoryLabel(readRadio(form, 'category') || 'individual', lang);
@@ -296,7 +296,7 @@
     var photographers = readField(form, 'photographer_team') || readField(form, 'photographers') || '—';
     var retouches = readField(form, 'retouched_images') || '—';
     var budget = readField(form, 'budget') || '—';
-    var amcham = form.querySelector('[name="amcham_member"]:checked') ? l.yes : l.no;
+    var amcham = form.querySelector('[name="amcham_member"]:checked')? l.yes: l.no;
     function set(sel, text) { var el = box.querySelector(sel); if (el) el.textContent = text; }
     set('[data-summary-service]', l.service + ': ' + service);
     set('[data-summary-location]', l.location + ': ' + location);
@@ -306,7 +306,7 @@
     set('[data-summary-budget]', l.budget + ': ' + budget);
     set('[data-summary-amcham]', l.amcham + ': ' + amcham);
     var copy = form.querySelector('[data-amcham-copy]');
-    if (copy) { copy.hidden = !form.querySelector('[name="amcham_member"]:checked'); }
+    if (copy) { copy.hidden =!form.querySelector('[name="amcham_member"]:checked'); }
   }
   document.querySelectorAll('[data-amcham-toggle]').forEach(function(input){
     var form = input.closest('form');
@@ -324,11 +324,11 @@
       if (!form.checkValidity()) { form.reportValidity(); return; }
       if (form.elements.website && form.elements.website.value) { return; }
       var isQuote = form.getAttribute('data-form-kind') === 'quote' || (form.elements.form_type && form.elements.form_type.value === 'quote');
-      var payload = isQuote ? buildQuotePayload(form) : buildGenericPayload(form);
+      var payload = isQuote? buildQuotePayload(form): buildGenericPayload(form);
       payload.pageUrl = window.location.href;
       payload.submittedAt = new Date().toISOString();
       var config = window.BANHALMI_CONFIG || {};
-      var endpoint = config.formEndpoint || (isQuote ? config.quoteEndpoint : config.contactEndpoint) || window.BANHALMI_FORM_ENDPOINT || "";
+      var endpoint = config.formEndpoint || (isQuote? config.quoteEndpoint: config.contactEndpoint) || window.BANHALMI_FORM_ENDPOINT || "";
       var note = form.querySelector("[data-form-note]");
       var submit = form.querySelector('[type="submit"]');
       function message(type) {
@@ -342,10 +342,10 @@
           error: {
             en:'The browser could not verify the server response. Please send the request by email or try again.',
             de:'Der Browser konnte die Serverantwort nicht verifizieren. Bitte senden Sie die Anfrage per E-Mail oder versuchen Sie es erneut.',
-            hu:'A böngésző nem tudta ellenőrizni a szerver válaszát. Kérlek küldd el e-mailben, vagy próbáld újra.'
+            hu:'A böngésző nem tudta ellenőrizni a szerver válaszát. Kérem, küldje el e-mailben, vagy próbálja újra.'
           }
         };
-        var key = lang.indexOf('hu') === 0 ? 'hu' : lang.indexOf('de') === 0 ? 'de' : 'en';
+        var key = lang.indexOf('hu') === 0? 'hu': lang.indexOf('de') === 0? 'de': 'en';
         return (copy[type] && copy[type][key]) || copy[type].en;
       }
       function showNote(text, isError) {
@@ -353,13 +353,13 @@
         if (note) {
           note.hidden = false;
           note.textContent = text || message('success');
-          note.style.color = isError ? '#8a2f18' : 'var(--gold-deep)';
-          note.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+          note.style.color = isError? '#8a2f18': 'var(--gold-deep)';
+          note.scrollIntoView({ behavior: reduce? "auto": "smooth", block: "center" });
         }
       }
       function openMailFallback() {
         var supportEmail = (window.BANHALMI_CONFIG && window.BANHALMI_CONFIG.supportEmail) || 'hello@norbertbanhalmi.com';
-        var subject = encodeURIComponent((isQuote ? 'BANHALMI quote request — ' : 'BANHALMI enquiry — ') + (payload.category || payload.subject || payload.service || 'photography'));
+        var subject = encodeURIComponent((isQuote? 'BANHALMI quote request — ': 'BANHALMI enquiry — ') + (payload.category || payload.subject || payload.service || 'photography'));
         var body = encodeURIComponent(Object.keys(payload).map(function (key) { return key + ': ' + payload[key]; }).join("\n"));
         window.location.href = "mailto:" + supportEmail + "?subject=" + subject + "&body=" + body;
       }
@@ -369,11 +369,11 @@
         var isAppsScript = /script\.google\.com\/macros\/s\//.test(endpoint || '');
         if (options.fromVerifiedSubmit && isAppsScript) {
           var lang = form.getAttribute('data-lang') || document.documentElement.lang || 'en';
-          var key = lang.indexOf('hu') === 0 ? 'hu' : lang.indexOf('de') === 0 ? 'de' : 'en';
+          var key = lang.indexOf('hu') === 0? 'hu': lang.indexOf('de') === 0? 'de': 'en';
           var copy = {
             en:'The request may have reached the server, but the browser could not verify the Google Apps Script response. Please check your confirmation email; do not resend unless no confirmation arrives.',
             de:'Die Anfrage wurde möglicherweise gesendet, aber der Browser konnte die Google-Apps-Script-Antwort nicht verifizieren. Bitte prüfen Sie die Bestätigungs-E-Mail und senden Sie nicht erneut, außer es kommt keine Bestätigung an.',
-            hu:'Az üzenet valószínűleg elindult, de a böngésző nem tudta ellenőrizni a Google Apps Script válaszát. Kérlek nézd meg, érkezik-e visszaigazoló e-mail; csak akkor küldd újra, ha nem érkezik megerősítés.'
+            hu:'Az üzenet valószínűleg elindult, de a böngésző nem tudta ellenőrizni a Google Apps Script válaszát. Kérem, nézze meg, érkezik-e visszaigazoló e-mail; csak akkor küldje újra, ha nem érkezik megerősítés.'
           };
           showNote(copy[key] || copy.en, true);
           return;
@@ -390,10 +390,10 @@
           credentials: "omit",
           keepalive: true
         }).then(function(response){
-          if (!response || !response.ok) throw new Error('Form endpoint returned HTTP ' + (response && response.status));
+          if (!response ||!response.ok) throw new Error('Form endpoint returned HTTP ' + (response && response.status));
           return response.text().then(function(text){
             var data = {};
-            try { data = text ? JSON.parse(text) : {}; } catch (e) { data = {ok:true, raw:text}; }
+            try { data = text? JSON.parse(text): {}; } catch (e) { data = {ok:true, raw:text}; }
             if (data && data.ok === false) throw new Error(data.error || 'Form endpoint rejected the request');
             return data;
           });
@@ -402,7 +402,7 @@
       if (submit) { submit.disabled = true; submit.setAttribute('aria-busy', 'true'); }
       if (endpoint && window.fetch) {
         submitVerified().then(function(data){
-          showNote(message('success') + (data && data.submissionId ? ' ID: ' + data.submissionId : ''), false);
+          showNote(message('success') + (data && data.submissionId? ' ID: ' + data.submissionId: ''), false);
           form.reset();
           if (isQuote && window.BANHALMI_QUOTE && typeof window.BANHALMI_QUOTE.paint === 'function') { window.BANHALMI_QUOTE.paint(form); }
         }).catch(function(){ fallbackMailto({fromVerifiedSubmit:true}); });
@@ -445,7 +445,7 @@
         filters.forEach(function (b) { b.setAttribute("aria-pressed", b === btn); });
         sections.forEach(function (s) {
           var show = (cat === "all" || s.getAttribute("data-cat-section") === cat);
-          s.classList.toggle("pf-hidden", !show);
+          s.classList.toggle("pf-hidden",!show);
         });
       });
     });
@@ -493,13 +493,13 @@
   // Production 3.1 — subtle text reveal, with reduced-motion support.
   (function () {
     var reduceTextMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var textNodes = document.querySelectorAll("main h1, main h2, main h3, main .lead, main p, main li, main blockquote");
+    var textNodes = document.querySelectorAll("main h1, main h2, main h3, main.lead, main p, main li, main blockquote");
     textNodes.forEach(function (el) {
       if (el.closest("form") || el.closest("nav") || el.closest("footer") || el.closest(".nav-links") || el.closest(".cookie")) return;
       el.classList.add("text-reveal");
     });
     var revealText = document.querySelectorAll(".text-reveal");
-    if (reduceTextMotion || !("IntersectionObserver" in window)) {
+    if (reduceTextMotion ||!("IntersectionObserver" in window)) {
       revealText.forEach(function (el) { el.classList.add("is-visible"); });
       return;
     }
@@ -516,7 +516,7 @@
 
   // Production 3.2 — subtle parallax on the homepage hero's center logo mark.
   (function () {
-    var logo = document.querySelector(".hero.hero-image-first .hero-center-logo");
+    var logo = document.querySelector(".hero.hero-image-first.hero-center-logo");
     if (!logo) return;
     if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     if (window.matchMedia && window.matchMedia("(max-width: 720px)").matches) return;

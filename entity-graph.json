@@ -1,0 +1,560 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataFeed",
+  "@id": "https://www.banhalmi.at/entity-graph.json",
+  "name": "BANHALMI Entity Graph",
+  "inLanguage": "de-AT",
+  "dateModified": "2026-06-27",
+  "description": "Machine-readable map of the BANHALMI digital ecosystem: person, brand, business, services, works, memberships, social profiles and official knowledge sources.",
+  "mainEntity": {
+    "@id": "https://www.banhalmi.art/norbert-banhalmi",
+    "sameAs": [
+      "https://www.banhalmi.art/curators?lang=de",
+      "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+      "https://www.banhalmi.art/?lang=de#partnerek"
+    ]
+  },
+  "nodes": {
+    "person": {
+      "@type": "Person",
+      "@id": "https://www.banhalmi.art/norbert-banhalmi",
+      "name": "Norbert Banhalmi",
+      "url": "https://www.banhalmi.art/norbert-banhalmi",
+      "sameAs": [
+        "https://www.banhalmi.art/norbert-banhalmi",
+        "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+        "https://www.wikidata.org/wiki/Q56391118",
+        "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+        "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+        "https://www.linkedin.com/in/norbertbanhalmi/",
+        "https://www.facebook.com/banhalmi.norbert",
+        "https://www.instagram.com/norbert.banhalmi/",
+        "https://hu.pinterest.com/norbertbanhalmi/",
+        "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+        "https://www.vipach.at",
+        "https://www.flickr.com/photos/vipach/albums",
+        "https://www.banhalmi.art/curators?lang=de",
+        "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+        "https://www.banhalmi.art/?lang=de#partnerek"
+      ],
+      "alternateName": [
+        "Bánhalmi Norbert",
+        "Norbert Bánhalmi"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+      },
+      "jobTitle": [
+        "Executive-Porträtkünstler",
+        "Stratege für visuelle Positionierung",
+        "Fine-Art-Fotograf",
+        "Berater für Brand-Fotografie"
+      ],
+      "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+      "knowsAbout": [
+        "Executive-Porträtfotografie",
+        "visuelle Positionierung",
+        "Brand-Fotografie",
+        "Personal-Branding-Fotografie",
+        "Fine-Art-Fotografie",
+        "C-Level-Eventfotografie",
+        "Fotografie in Wien",
+        "Fotografie in Budapest",
+        "KI-lesbare visuelle Identität",
+        "Knowledge-Graph-Entitätsaufbau"
+      ],
+      "nationality": {
+        "@type": "Country",
+        "name": "Hungary",
+        "sameAs": "https://www.wikidata.org/wiki/Q28"
+      },
+      "workLocation": [
+        {
+          "@type": "City",
+          "name": "Vienna",
+          "sameAs": "https://www.wikidata.org/wiki/Q1741"
+        },
+        {
+          "@type": "City",
+          "name": "Budapest",
+          "sameAs": "https://www.wikidata.org/wiki/Q1781"
+        }
+      ],
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "subjectOf": [
+        {
+          "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+        },
+        {
+          "@id": "https://www.banhalmi.at/faq.json"
+        },
+        {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+        }
+      ]
+    },
+    "brand": {
+      "@type": "Brand",
+      "@id": "https://www.norbertbanhalmi.com/#brand",
+      "name": "BANHALMI",
+      "foundingDate": "1999",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "alternateName": [
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "url": "https://www.norbertbanhalmi.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+      }
+    },
+    "organization": {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.banhalmi.at/#organization",
+      "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+      "foundingDate": "2023-11-27",
+      "url": "https://www.banhalmi.at",
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "identifier": [
+        {
+          "propertyID": "GISA-Zahl",
+          "value": "36592951"
+        },
+        {
+          "propertyID": "UID / VAT",
+          "value": "ATU80445314"
+        },
+        {
+          "propertyID": "GLN",
+          "value": "9110037983878"
+        }
+      ],
+      "legalName": "Bánhalmi Norbert e.U.",
+      "alternateName": [
+        "BANHALMI",
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+      "hasOfferCatalog": {
+        "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+      },
+      "priceRange": "€€–€€€",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138425941",
+        "https://www.banhalmi.art",
+        "https://www.norbertbanhalmi.com",
+        "https://www.banhalmi.at",
+        "https://www.banhalminorbert.hu"
+      ]
+    },
+    "serviceSites": {
+      "en": "https://www.norbertbanhalmi.com",
+      "hu": "https://www.banhalminorbert.hu",
+      "de": "https://www.banhalmi.at"
+    },
+    "primaryArchive": {
+      "@type": "WebSite",
+      "@id": "https://www.banhalmi.art/?lang=de#website",
+      "url": "https://www.banhalmi.art/?lang=de",
+      "name": "BANHALMI.art",
+      "description": "Primary entity, artistic archive, books, exhibitions, journal and gallery."
+    },
+    "externalEntities": {
+      "person_wikidata": "https://www.wikidata.org/wiki/Q56391118",
+      "business_wikidata": "https://www.wikidata.org/wiki/Q138425941",
+      "vienna_studio_wikidata": "https://www.wikidata.org/wiki/Q138426506",
+      "budapest_studio_wikidata": "https://www.wikidata.org/wiki/Q138830452",
+      "euphoria_wikidata": "https://www.wikidata.org/wiki/Q138717398",
+      "wikipedia_hu": "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+      "wikimedia_portrait": "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+      "linkedin": "https://www.linkedin.com/in/norbertbanhalmi/",
+      "facebook": "https://www.facebook.com/banhalmi.norbert",
+      "instagram": "https://www.instagram.com/norbert.banhalmi/",
+      "pinterest": "https://hu.pinterest.com/norbertbanhalmi/",
+      "youtube_playlist": "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+      "vipach": "https://www.vipach.at",
+      "flickr_vipach": "https://www.flickr.com/photos/vipach/albums",
+      "google_business_vienna": "https://g.page/r/CSa3EIgaSntZEBM",
+      "google_business_budapest": "https://g.page/r/CQ_-rrtrvticEBM"
+    },
+    "memberships": [
+      {
+        "name": "WKO / Austrian Professional Photography Chamber",
+        "url": "https://www.wko.at/oe/gewerbe-handwerk/berufsfotografie/start"
+      },
+      {
+        "name": "WKO company profile",
+        "url": "https://firmen.wko.at/norbert-banhalmi-executive-portr%C3%A4t-und-visuelle-positionierung/wien/?firmaid=12bd142c-5fcf-4457-9a90-47fbff162b40&standortid=1&standortname=wien%20%28bundesland%29&suchbegriff=norbert%20banhalmi%20executive%20portr%C3%A4t%20und%20visuelle%20positionieru"
+      },
+      {
+        "name": "AmCham Austria",
+        "url": "https://amcham.at/yearbook-2026/#members"
+      },
+      {
+        "name": "OM SYSTEM Ambassador",
+        "url": "https://www.milcclub.com/ambassadors"
+      },
+      {
+        "name": "Weltverband Ungarischer Fotokünstler",
+        "url": "https://www.mfvsz.com/"
+      }
+    ],
+    "machineReadableFiles": [
+      "/llms.txt",
+      "/llms-full.txt",
+      "/ai.txt",
+      "/knowledge.json",
+      "/entity.jsonld",
+      "/entity-graph.json",
+      "/entity-graph.jsonld",
+      "/pricing.json",
+      "/faq.json",
+      "/image-catalog.json"
+    ]
+  },
+  "relationships": [
+    {
+      "subject": "person",
+      "predicate": "primaryEntityPage",
+      "object": "https://www.banhalmi.art/norbert-banhalmi?lang=de"
+    },
+    {
+      "subject": "person",
+      "predicate": "sameAs",
+      "object": "https://www.linkedin.com/in/norbertbanhalmi/"
+    },
+    {
+      "subject": "brand",
+      "predicate": "foundedBy",
+      "object": "person"
+    },
+    {
+      "subject": "organization",
+      "predicate": "brand",
+      "object": "brand"
+    },
+    {
+      "subject": "serviceSites",
+      "predicate": "reference",
+      "object": "primaryArchive"
+    },
+    {
+      "subject": "services",
+      "predicate": "areProvidedBy",
+      "object": "organization"
+    },
+    {
+      "subject": "images",
+      "predicate": "creator",
+      "object": "person"
+    },
+    {
+      "subject": "booksAndExhibitions",
+      "predicate": "creatorOrAuthor",
+      "object": "person"
+    }
+  ],
+  "seo_geo_focus": {
+    "primary_person": "Norbert Banhalmi / Bánhalmi Norbert",
+    "brand": "BANHALMI",
+    "positioning": [
+      "executive portrait photography",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine art portrait photography"
+    ],
+    "geography": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "Austria",
+      "Hungary"
+    ],
+    "editorial_principle": "Portraiture is treated as trust, presence and human attention before it becomes a service.",
+    "primary_entity": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "professionalNetwork": {
+    "name": "BANHALMI Professional Creative Network",
+    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive Portrait, Markenfotografie, visuelle Positionierung, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
+    "approximateNumberOfCollaboratingProfessionals": "nearly 50",
+    "keyOperationalPartner": {
+      "name": "Speier Viko",
+      "role": "Close operational partner and company representative within AmCham Austria"
+    },
+    "affiliations": [
+      "OM SYSTEM Ambassador Network",
+      "VIPACH – Vienna Photo Art & Creative Hub",
+      "Weltverband Ungarischer Fotokünstler",
+      "AmCham Austria",
+      "WKO"
+    ],
+    "areasServed": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "international assignments"
+    ],
+    "serviceCapacity": [
+      "executive portraiture",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine-art photography",
+      "corporate productions",
+      "mobile studio productions"
+    ]
+  },
+  "portfolioBestOfGallery": "https://www.banhalmi.art/?lang=de#gallery",
+  "menuArchitecture": [
+    "about",
+    "services",
+    "contact",
+    "request quote"
+  ],
+  "faqPage": "https://www.banhalmi.at/faq/",
+  "socialProfiles": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/norbertbanhalmi/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/norbert.banhalmi/"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://hu.pinterest.com/norbertbanhalmi/"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr"
+    },
+    {
+      "name": "Flickr / VIPACH",
+      "url": "https://www.flickr.com/photos/vipach/albums"
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert"
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q56391118"
+    },
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg"
+    }
+  ],
+  "production2Update": {
+    "projectTeam": "Depending on the project, coordination may be handled by Norbert Banhalmi, a dedicated BANHALMI project coordinator, or for selected AmCham/international business projects Speier Viko.",
+    "amchamBenefit": "AmCham members may receive 50% more professionally retouched images at no additional cost.",
+    "photographerTeam": "Projects can be delivered personally or with a scalable team from the BANHALMI professional network."
+  },
+  "faq": [
+    {
+      "question": "Für wen ist Executive Portraitfotografie gedacht?",
+      "answer": "Für Gründer:innen, C-Level-Führungskräfte, Berater:innen, Expert:innen und Teams, deren Bild oft vor dem ersten Gespräch Vertrauen schaffen muss."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Headshot und Executive Portrait?",
+      "answer": "Ein Headshot ist ein klares berufliches Profilbild. Ein Executive Portrait berücksichtigt zusätzlich Rolle, Publikum, Leadership Presence, Vertrauen und langfristige Nutzung."
+    },
+    {
+      "question": "Muss ich posieren können?",
+      "answer": "Nein. Die Session wird ruhig geführt. Es geht nicht um Performance, sondern darum, einen sicheren Raum für natürliche Präsenz zu schaffen."
+    },
+    {
+      "question": "Gibt es ein schnelles 30-Minuten-Portrait?",
+      "answer": "Ja. Ein fokussiertes Headshot- oder Executive-Portrait ist für Menschen geeignet, die genau wissen, was sie benötigen und effizient arbeiten möchten."
+    },
+    {
+      "question": "Was, wenn ich vor der Kamera unsicher bin?",
+      "answer": "Das ist normal. Der Prozess beginnt mit Vertrauen, nicht mit der Kamera. Ziel ist keine erzwungene Sicherheit, sondern echte Präsenz."
+    },
+    {
+      "question": "Wie schnell werden die finalen Bilder geliefert?",
+      "answer": "Ausgewählte retuschierte Bilder werden in der Regel innerhalb von 48 Stunden geliefert. Größere Projekte können durch skalierbare Workflows ebenfalls schnell umgesetzt werden."
+    },
+    {
+      "question": "Kann die Bildauswahl sofort stattfinden?",
+      "answer": "Ja. Bei vielen Portrait- und Brand-Sessions findet die Auswahl gemeinsam während oder direkt nach dem Shooting statt."
+    },
+    {
+      "question": "Wie funktioniert die Retusche?",
+      "answer": "Die Retusche bleibt sorgfältig und menschlich. Sie entfernt störende Details, ohne Charakter, Hautstruktur und Würde zu verlieren."
+    },
+    {
+      "question": "Wie viele retuschierte Bilder sind sinnvoll?",
+      "answer": "Das hängt von der Nutzung ab. Für LinkedIn reichen oft wenige Bilder, für Website, Presse oder Kampagne ist ein breiteres Set sinnvoll."
+    },
+    {
+      "question": "Kann ich später zusätzliche retuschierte Bilder bestellen?",
+      "answer": "Ja. Aus der gelieferten Auswahl können später weitere Bilder zur Retusche gewählt werden."
+    },
+    {
+      "question": "Können Sie ein ganzes Führungsteam fotografieren?",
+      "answer": "Ja. Team-Portraittage können für 6 bis 20 Personen strukturiert geplant werden. Für sofortige Retusche sind kleinere Gruppen empfehlenswert."
+    },
+    {
+      "question": "Können Sie mehrere Fotograf:innen stellen?",
+      "answer": "Ja. Je nach Auftrag kann ein einzelner Fotograf oder ein größeres Team über das BANHALMI Professional Network koordiniert werden."
+    },
+    {
+      "question": "Wie viele Fotograf:innen kann ich anfragen?",
+      "answer": "Im Anfrageformular können Sie auswählen, wie viele Fotograf:innen Sie benötigen. Wenn Sie unsicher sind, empfehlen wir die passende Teamgröße."
+    },
+    {
+      "question": "Können Sie ein mobiles Studio mitbringen?",
+      "answer": "Ja. Ein mobiles Studio kann für Teams, Konferenzen, Führungskräfte-Portraits und Corporate Events aufgebaut werden."
+    },
+    {
+      "question": "Arbeiten Sie auch vor Ort?",
+      "answer": "Ja. Shootings können im Studio Wien, Studio Budapest, im Büro, Hotel, Konferenzort oder an einem vereinbarten Ort stattfinden."
+    },
+    {
+      "question": "Arbeiten Sie international?",
+      "answer": "Ja. Der Schwerpunkt liegt auf Wien und Budapest, mit Projekten in Österreich, Ungarn, Mitteleuropa, DACH und internationalen Locations."
+    },
+    {
+      "question": "Was bedeutet visuelle Positionierung?",
+      "answer": "Visuelle Positionierung bedeutet, Bilder zu schaffen, die bereits vor dem ersten Gespräch zeigen, wie eine Person, Marke oder Organisation verstanden werden soll."
+    },
+    {
+      "question": "Wie unterscheidet sich Brand Fotografie?",
+      "answer": "Brand Fotografie umfasst Menschen, Räume, Details, Atmosphäre und visuelle Hinweise. Sie zeigt nicht nur, wer Sie sind, sondern wie Ihre Marke erinnert werden soll."
+    },
+    {
+      "question": "Sind Bilder für Website oder Rebranding möglich?",
+      "answer": "Ja. Brand und Visual Positioning eignen sich besonders für Websites, Pressematerial, LinkedIn, Kampagnen und Investor Communication."
+    },
+    {
+      "question": "Fotografieren Sie C-Level Events?",
+      "answer": "Ja. Dazu gehören Leadership Summits, Board Meetings, Empfänge, Corporate-Diplomacy-Formate und private Executive Events."
+    },
+    {
+      "question": "Wie diskret ist die Eventfotografie?",
+      "answer": "Diskretion ist zentral. Die Fotografie dokumentiert den Moment, ohne den Raum oder die Menschen darin zu stören."
+    },
+    {
+      "question": "Können Eventbilder schnell geliefert werden?",
+      "answer": "Ja. Bei Bedarf kann eine schnelle erste Auswahl geliefert werden. Die finale Übergabe richtet sich nach Größe und Kommunikationsbedarf des Events."
+    },
+    {
+      "question": "Bieten Sie Fine Art oder künstlerische Portraits an?",
+      "answer": "Ja. Fine-Art-Aufträge folgen einem ruhigeren, persönlicheren Rhythmus mit besonderem Fokus auf Vertrauen, Körper, Präsenz und Würde."
+    },
+    {
+      "question": "Ist Lingerie- oder Aktfotografie möglich?",
+      "answer": "Ja, ausschließlich in einem respektvollen Fine-Art-Kontext mit klarer Zustimmung, Privatsphäre und vorher vereinbarten Grenzen."
+    },
+    {
+      "question": "Können Styling, Make-up und Hair organisiert werden?",
+      "answer": "Ja. Stylist:in, Make-up Artist und Hair können als zusätzliche Leistungen organisiert werden."
+    },
+    {
+      "question": "Kann ich eigene Stylist:innen oder Make-up Artists mitbringen?",
+      "answer": "Ja. Sie können Ihr eigenes Team mitbringen oder Empfehlungen aus dem BANHALMI Netzwerk erhalten."
+    },
+    {
+      "question": "Wer koordiniert mein Projekt?",
+      "answer": "Je nach Projekt kann die Koordination durch Norbert Banhalmi, ein dediziertes Mitglied des BANHALMI Teams oder bei ausgewählten internationalen Business-Projekten durch Speier Viko erfolgen."
+    },
+    {
+      "question": "Was ist das BANHALMI Professional Network?",
+      "answer": "Ein sorgfältig aufgebautes Netzwerk aus nahezu fünfzig Fotograf:innen, Retuscheur:innen und visuellen Fachleuten in Wien, Budapest und internationalen Locations."
+    },
+    {
+      "question": "Was ist der Vorteil für AmCham Mitglieder?",
+      "answer": "Mitglieder einer American Chamber of Commerce erhalten 50% mehr professionell retuschierte Bilder als im gewählten Paket enthalten, ohne zusätzliche Kosten."
+    },
+    {
+      "question": "Ist das ein Preisnachlass?",
+      "answer": "Nein. Es handelt sich nicht um einen Rabatt, sondern um einen zusätzlichen Leistungswert im Rahmen des BANHALMI Professional Network."
+    },
+    {
+      "question": "Kann ein AmCham Projekt von Speier Viko koordiniert werden?",
+      "answer": "Ausgewählte internationale Business-Projekte können über das internationale Netzwerk koordiniert werden und je nach Anforderungen Speier Viko einbeziehen."
+    },
+    {
+      "question": "Wie werden Nutzungsrechte geregelt?",
+      "answer": "Nutzungsrechte hängen von Projekt, Medium, Dauer und Gebiet ab. Sie werden im finalen Angebot eindeutig geklärt."
+    },
+    {
+      "question": "Darf ich die Bilder auf LinkedIn und Website verwenden?",
+      "answer": "Ja, wenn dies in den vereinbarten Nutzungsrechten enthalten ist. Executive-Pakete decken typischerweise LinkedIn, Website, Presse und berufliche Profile ab."
+    },
+    {
+      "question": "Was passiert mit meinen Bildern nach DSGVO?",
+      "answer": "Bilder und personenbezogene Daten werden vertraulich und nur für den vereinbarten Zweck verarbeitet. Veröffentlichung erfolgt nur mit Zustimmung."
+    },
+    {
+      "question": "Sind private Sessions vertraulich?",
+      "answer": "Ja. Private, Fine-Art- und Executive-Sessions werden diskret behandelt. Bilder werden nicht ohne ausdrückliche Erlaubnis veröffentlicht."
+    },
+    {
+      "question": "Warum zeigt der Kalkulator 20% USt.?",
+      "answer": "Die Standardschätzung enthält österreichische Umsatzsteuer. Wenn Reverse Charge anwendbar ist, kann das System vorläufig mit 0% USt. rechnen."
+    },
+    {
+      "question": "Unterstützen Sie EU Reverse Charge?",
+      "answer": "Ja. EU-Unternehmen außerhalb Österreichs können bei gültiger UID-Nummer und Unternehmensdaten für Reverse Charge geeignet sein."
+    },
+    {
+      "question": "Ist der berechnete Preis final?",
+      "answer": "Nein. Es ist eine Vorkalkulation. Das finale Angebot hängt von Umfang, Ort, Termin, Nutzungsrechten und Produktionsanforderungen ab."
+    },
+    {
+      "question": "Kann ich ein eigenes Budget angeben?",
+      "answer": "Ja. Im Anfrageformular können Sie beschreiben, was Sie benötigen, wo und wann es stattfinden soll und mit welchem Budgetrahmen Sie planen."
+    },
+    {
+      "question": "Wie kann ich verschieben oder stornieren?",
+      "answer": "Bitte melden Sie sich so früh wie möglich. Verschieben ist meist einfacher als Stornieren, besonders wenn Studio, Assistenz oder Styling gebucht sind."
+    }
+  ],
+  "editorialVoice": "Redaktionelle Stimme: Ich spreche in der ersten Person. Ich beginne mit Aufmerksamkeit, nicht mit der Kamera. Die Arbeit handelt von Würde, Präsenz und Vertrauen, bevor sie Fotografie wird."
+}

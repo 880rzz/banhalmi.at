@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic",
+  "name": "BANHALMI geführte Angebots- und Preislogik",
+  "priceCurrency": "EUR",
+  "vatIncludedByDefault": true,
+  "defaultVatRate": "20% Austrian VAT",
+  "reverseChargeRule": "For non-Austrian EU business clients with valid company details and EU VAT number, the quote estimate may use reverse charge / 0% VAT. Final tax handling is manually confirmed.",
+  "disclaimer": "Automatic quote calculator provides orientation only. Final offer depends on purpose, location, usage, production complexity and scheduling.",
+  "calculationInputs": [
+    "category",
+    "duration",
+    "number of people",
+    "retouched image quantity",
+    "retouching workflow",
+    "number of photographers",
+    "mobile studio",
+    "stylist",
+    "hair",
+    "makeup",
+    "express delivery",
+    "company data",
+    "EU VAT number",
+    "location",
+    "preferred date/time",
+    "downloadable non-binding PDF orientation offer",
+    "photographer team size"
+  ],
+  "priceComponentsGrossEUR": {
+    "individualQuick30": 220,
+    "individualGuided60": 420,
+    "individualGuided120": 690,
+    "groupSetupLaterRetouching": 390,
+    "groupPerPersonLaterRetouching": 45,
+    "groupInstantBaseMax6People": 690,
+    "groupInstantPerPerson": 55,
+    "brandFastOneHour": 499,
+    "brandTwoHours": 790,
+    "brandThreeHours": 1090,
+    "brandFourHours": 1390,
+    "fineArtBase": 690,
+    "retouchedImagePortrait": 35,
+    "retouchedImageGroup": 29,
+    "retouchedImageFineArt": 45,
+    "stylist": 220,
+    "hair": 220,
+    "makeup": 220,
+    "expressDelivery": 120,
+    "mobileStudio": 240,
+    "artDirection": 260,
+    "additionalPhotographer": 390,
+    "eventOneHour": 590,
+    "eventTwoHours": 890,
+    "eventThreeHours": 1190,
+    "eventFourHours": 1490,
+    "eventFullDay": 2490,
+    "fineArtOneHour": 690,
+    "fineArtTwoHours": 990,
+    "fineArtThreeHours": 1290,
+    "additionalPhotographerEventPerHour": 120
+  },
+  "itemListElement": [
+    {
+      "@type": "Offer",
+      "name": "Individual portrait — quick 30 minutes",
+      "description": "For confident clients who know what they need; short focused portrait session.",
+      "price": 220,
+      "priceCurrency": "EUR"
+    },
+    {
+      "@type": "Offer",
+      "name": "Individual guided portrait — 60 or 120 minutes",
+      "description": "For clients who want guidance, time and a calmer selection process.",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": 420,
+        "maxPrice": 690,
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Group portrait photography",
+      "description": "Company portraits for 6–20 people per hour; instant retouching up to 6 people or later retouching with original files delivered immediately and final retouched images within 48 hours.",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": 660,
+        "maxPrice": 1290,
+        "priceCurrency": "EUR",
+        "description": "6-20+ people; base fee + per-person fee + retouched image count; additional photographers and mobile studio available."
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Brand and visual positioning",
+      "description": "Brand photography and visual positioning from a fast one-location session to multi-hour, multi-location productions.",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": 499,
+        "maxPrice": 1390,
+        "priceCurrency": "EUR"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Fine art photography",
+      "description": "Artistic portraits, special visual concepts, private fine art, lingerie and nude photography handled as respectful artistic commissions.",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": 690,
+        "maxPrice": 1290,
+        "priceCurrency": "EUR",
+        "description": "690 EUR for 1 hour, 990 EUR for 2 hours, 1290 EUR for 3 hours; final artistic scope is confirmed in writing."
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "C-level event photography",
+      "description": "Leadership summits, board meetings, receptions, corporate diplomacy and private executive events, priced by duration. Austrian market rate, discreet coverage.",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": 590,
+        "maxPrice": 2490,
+        "priceCurrency": "EUR",
+        "description": "590 EUR for 1h, 890 EUR for 2h, 1190 EUR for 3h, 1490 EUR for 4h, 2490 EUR for a full day/up to 8h. Additional event photographer is estimated at 120 EUR gross per hour."
+      }
+    }
+  ],
+  "description": "EUR-basierte Angebotslogik für Executive-Porträt, Brand-Fotografie, Fine Art und C-Level-Eventfotografie. Preise sind Brutto-Orientierungswerte inklusive 20 % österreichischer Umsatzsteuer, mit Reverse-Charge-Logik für berechtigte EU-Unternehmenskunden nach manueller Prüfung.",
+  "provider": {
+    "@id": "https://www.banhalmi.at/#organization"
+  },
+  "creator": {
+    "@id": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "inLanguage": "de-AT",
+  "marketPositioning": "Premium Vienna/Budapest executive and C-level positioning; not a budget commodity photographer rate."
+}

@@ -1,0 +1,262 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.banhalmi.art/norbert-banhalmi",
+      "name": "Norbert Banhalmi",
+      "url": "https://www.banhalmi.art/norbert-banhalmi",
+      "sameAs": [
+        "https://www.banhalmi.art/norbert-banhalmi",
+        "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+        "https://www.wikidata.org/wiki/Q56391118",
+        "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+        "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+        "https://www.linkedin.com/in/norbertbanhalmi/",
+        "https://www.facebook.com/banhalmi.norbert",
+        "https://www.instagram.com/norbert.banhalmi/",
+        "https://hu.pinterest.com/norbertbanhalmi/",
+        "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+        "https://www.vipach.at",
+        "https://www.flickr.com/photos/vipach/albums"
+      ],
+      "alternateName": [
+        "Bánhalmi Norbert",
+        "Norbert Bánhalmi"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+      },
+      "jobTitle": [
+        "Executive-Porträtkünstler",
+        "Stratege für visuelle Positionierung",
+        "Fine-Art-Fotograf",
+        "Berater für Brand-Fotografie"
+      ],
+      "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+      "knowsAbout": [
+        "Executive-Porträtfotografie",
+        "visuelle Positionierung",
+        "Brand-Fotografie",
+        "Personal-Branding-Fotografie",
+        "Fine-Art-Fotografie",
+        "C-Level-Eventfotografie",
+        "Fotografie in Wien",
+        "Fotografie in Budapest",
+        "KI-lesbare visuelle Identität",
+        "Knowledge-Graph-Entitätsaufbau"
+      ],
+      "nationality": {
+        "@type": "Country",
+        "name": "Hungary",
+        "sameAs": "https://www.wikidata.org/wiki/Q28"
+      },
+      "workLocation": [
+        {
+          "@type": "City",
+          "name": "Vienna",
+          "sameAs": "https://www.wikidata.org/wiki/Q1741"
+        },
+        {
+          "@type": "City",
+          "name": "Budapest",
+          "sameAs": "https://www.wikidata.org/wiki/Q1781"
+        }
+      ],
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "subjectOf": [
+        {
+          "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+        },
+        {
+          "@id": "https://www.banhalmi.at/faq.json"
+        },
+        {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.norbertbanhalmi.com/#brand",
+      "name": "BANHALMI",
+      "foundingDate": "1999",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "alternateName": [
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "url": "https://www.norbertbanhalmi.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+      }
+    },
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.banhalmi.at/#organization",
+      "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+      "foundingDate": "2023-11-27",
+      "url": "https://www.banhalmi.at",
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "identifier": [
+        {
+          "propertyID": "GISA-Zahl",
+          "value": "36592951"
+        },
+        {
+          "propertyID": "UID / VAT",
+          "value": "ATU80445314"
+        },
+        {
+          "propertyID": "GLN",
+          "value": "9110037983878"
+        }
+      ],
+      "legalName": "Bánhalmi Norbert e.U.",
+      "alternateName": [
+        "BANHALMI",
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+      "hasOfferCatalog": {
+        "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+      },
+      "priceRange": "€€–€€€",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138425941",
+        "https://www.banhalmi.art",
+        "https://www.norbertbanhalmi.com",
+        "https://www.banhalmi.at",
+        "https://www.banhalminorbert.hu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.banhalmi.art/?lang=de#website",
+      "url": "https://www.banhalmi.art/?lang=de",
+      "name": "BANHALMI.art",
+      "description": "Primary entity, artistic archive, books, exhibitions, journal and gallery."
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.linkedin.com/in/norbertbanhalmi/#profilepage",
+      "url": "https://www.linkedin.com/in/norbertbanhalmi/",
+      "name": "Norbert Banhalmi on LinkedIn",
+      "mainEntity": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      }
+    },
+    {
+      "@type": "DataFeed",
+      "@id": "https://www.banhalmi.at/entity-graph.json",
+      "name": "BANHALMI machine-readable entity graph",
+      "inLanguage": "de-AT",
+      "about": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.facebook.com/banhalmi.norbert#profilepage",
+      "url": "https://www.facebook.com/banhalmi.norbert",
+      "name": "Norbert Banhalmi on Facebook",
+      "mainEntity": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      }
+    }
+  ],
+  "seo_geo_focus": {
+    "primary_person": "Norbert Banhalmi / Bánhalmi Norbert",
+    "brand": "BANHALMI",
+    "positioning": [
+      "executive portrait photography",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine art portrait photography"
+    ],
+    "geography": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "Austria",
+      "Hungary"
+    ],
+    "editorial_principle": "Portraiture is treated as trust, presence and human attention before it becomes a service.",
+    "primary_entity": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "professionalNetwork": {
+    "name": "BANHALMI Professional Creative Network",
+    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive Portrait, Markenfotografie, visuelle Positionierung, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
+    "approximateNumberOfCollaboratingProfessionals": "nearly 50",
+    "keyOperationalPartner": {
+      "name": "Speier Viko",
+      "role": "Close operational partner and company representative within AmCham Austria"
+    },
+    "affiliations": [
+      "OM SYSTEM Ambassador Network",
+      "VIPACH – Vienna Photo Art & Creative Hub",
+      "Weltverband Ungarischer Fotokünstler",
+      "AmCham Austria",
+      "WKO"
+    ],
+    "areasServed": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "international assignments"
+    ],
+    "serviceCapacity": [
+      "executive portraiture",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine-art photography",
+      "corporate productions",
+      "mobile studio productions"
+    ]
+  },
+  "editorialVoice": "Redaktionelle Stimme: Ich spreche in der ersten Person. Ich beginne mit Aufmerksamkeit, nicht mit der Kamera. Die Arbeit handelt von Würde, Präsenz und Vertrauen, bevor sie Fotografie wird."
+}

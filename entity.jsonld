@@ -1,0 +1,856 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.banhalmi.art/norbert-banhalmi",
+      "name": "Norbert Banhalmi",
+      "url": "https://www.banhalmi.art/norbert-banhalmi",
+      "sameAs": [
+        "https://www.banhalmi.art/norbert-banhalmi",
+        "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+        "https://www.wikidata.org/wiki/Q56391118",
+        "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+        "https://www.linkedin.com/in/norbertbanhalmi/",
+        "https://www.facebook.com/banhalmi.norbert",
+        "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+        "https://www.instagram.com/norbert.banhalmi/",
+        "https://hu.pinterest.com/norbertbanhalmi/",
+        "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+        "https://www.vipach.at",
+        "https://www.flickr.com/photos/vipach/albums",
+        "https://www.banhalmi.art/curators?lang=de",
+        "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+        "https://www.banhalmi.art/?lang=de#partnerek",
+        "https://www.wikidata.org/wiki/Q138426842",
+        "https://www.wikidata.org/wiki/Q138426876",
+        "https://www.wikidata.org/wiki/Q138454278",
+        "https://www.wikidata.org/wiki/Q138454296",
+        "https://www.wikidata.org/wiki/Q138454309",
+        "https://www.wikidata.org/wiki/Q138454318",
+        "https://www.wikidata.org/wiki/Q138454332",
+        "https://www.wikidata.org/wiki/Q138454346",
+        "https://www.wikidata.org/wiki/Q138454365",
+        "https://www.wikidata.org/wiki/Q138454422",
+        "https://www.wikidata.org/wiki/Q138454436",
+        "https://www.wikidata.org/wiki/Q138667343",
+        "https://www.wikidata.org/wiki/Q138667529",
+        "https://www.wikidata.org/wiki/Q138413481",
+        "https://www.wikidata.org/wiki/Q138413557",
+        "https://www.wikidata.org/wiki/Q138424838",
+        "https://www.wikidata.org/wiki/Q138578053",
+        "https://cherrydeck.com/norbert.banhalmi",
+        "https://www.saatchiart.com/norbertbanhalmi",
+        "https://www.wikidata.org/wiki/Q138578385"
+      ],
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "subjectOf": [
+        {
+          "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+        },
+        {
+          "@id": "https://www.banhalmi.at/faq.json"
+        },
+        {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138717398"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138426842"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138667529"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138426876"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138667343"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138454278"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138454296"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138454309"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138454318"
+        }
+      ],
+      "memberOf": [
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138413481"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138413557"
+        },
+        {
+          "@id": "https://www.wikidata.org/wiki/Q138424838"
+        }
+      ],
+      "award": [
+        "Turul-díj",
+        "Top100 Hungary"
+      ],
+      "alternateName": [
+        "Bánhalmi Norbert",
+        "Norbert Bánhalmi"
+      ],
+      "mainEntityOfPage": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+      },
+      "jobTitle": [
+        "Executive-Porträtkünstler",
+        "Stratege für visuelle Positionierung",
+        "Fine-Art-Fotograf",
+        "Berater für Brand-Fotografie"
+      ],
+      "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+      "knowsAbout": [
+        "Executive-Porträtfotografie",
+        "visuelle Positionierung",
+        "Brand-Fotografie",
+        "Personal-Branding-Fotografie",
+        "Fine-Art-Fotografie",
+        "C-Level-Eventfotografie",
+        "Fotografie in Wien",
+        "Fotografie in Budapest",
+        "KI-lesbare visuelle Identität",
+        "Knowledge-Graph-Entitätsaufbau"
+      ],
+      "nationality": {
+        "@type": "Country",
+        "name": "Hungary",
+        "sameAs": "https://www.wikidata.org/wiki/Q28"
+      },
+      "workLocation": [
+        {
+          "@type": "City",
+          "name": "Vienna",
+          "sameAs": "https://www.wikidata.org/wiki/Q1741"
+        },
+        {
+          "@type": "City",
+          "name": "Budapest",
+          "sameAs": "https://www.wikidata.org/wiki/Q1781"
+        }
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.norbertbanhalmi.com/#brand",
+      "name": "BANHALMI",
+      "slogan": "since 1999",
+      "foundingDate": "1999",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "alternateName": [
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "url": "https://www.norbertbanhalmi.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+      }
+    },
+    {
+      "@type": [
+        "ProfessionalService",
+        "LocalBusiness"
+      ],
+      "@id": "https://www.banhalmi.at/#organization",
+      "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+      "url": "https://www.banhalmi.at",
+      "foundingDate": "2023-11-27",
+      "email": "hello@norbertbanhalmi.com",
+      "telephone": "+43 677 616 55592",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "brand": {
+        "@id": "https://www.norbertbanhalmi.com/#brand",
+        "@type": "Brand",
+        "name": "BANHALMI",
+        "alternateName": [
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "url": "https://www.norbertbanhalmi.com/",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+        }
+      },
+      "taxID": "ATU80445314",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "GISA-Zahl",
+          "value": "36592951"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "GLN",
+          "value": "9110037983878"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "WKO / Berufsfotografie",
+          "url": "https://www.wko.at/oe/gewerbe-handwerk/berufsfotografie/start"
+        },
+        {
+          "@type": "Organization",
+          "name": "AmCham Austria",
+          "url": "https://amcham.at/yearbook-2026/#members"
+        },
+        {
+          "@type": "Organization",
+          "name": "OM SYSTEM Ambassador",
+          "url": "https://www.milcclub.com/ambassadors"
+        },
+        {
+          "@type": "Organization",
+          "name": "Weltverband Ungarischer Fotokünstler",
+          "url": "https://www.mfvsz.com/"
+        }
+      ],
+      "legalName": "Bánhalmi Norbert e.U.",
+      "alternateName": [
+        "BANHALMI",
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+      "hasOfferCatalog": {
+        "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+      },
+      "priceRange": "€€–€€€",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138425941",
+        "https://www.banhalmi.art",
+        "https://www.norbertbanhalmi.com",
+        "https://www.banhalmi.at",
+        "https://www.banhalminorbert.hu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.banhalmi.at/#website",
+      "url": "https://www.banhalmi.at",
+      "name": "BANHALMI",
+      "inLanguage": "de-AT",
+      "about": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi",
+        "sameAs": [
+          "https://www.banhalmi.art/curators?lang=de",
+          "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+          "https://www.banhalmi.art/?lang=de#partnerek"
+        ]
+      },
+      "publisher": {
+        "@id": "https://www.banhalmi.at/#organization",
+        "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+        "legalName": "Bánhalmi Norbert e.U.",
+        "alternateName": [
+          "BANHALMI",
+          "Bánhalmi Norbert Photography",
+          "Norbert Banhalmi Photography"
+        ],
+        "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+        "founder": {
+          "@id": "https://www.banhalmi.art/norbert-banhalmi"
+        },
+        "foundingDate": "1999",
+        "brand": {
+          "@id": "https://www.norbertbanhalmi.com/#brand",
+          "@type": "Brand",
+          "name": "BANHALMI",
+          "alternateName": [
+            "Bánhalmi Norbert Photography",
+            "Norbert Banhalmi Photography"
+          ],
+          "url": "https://www.norbertbanhalmi.com/",
+          "founder": {
+            "@id": "https://www.banhalmi.art/norbert-banhalmi"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+          }
+        },
+        "hasOfferCatalog": {
+          "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+        },
+        "priceRange": "€€–€€€",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q138425941",
+          "https://www.banhalmi.art",
+          "https://www.norbertbanhalmi.com",
+          "https://www.banhalmi.at",
+          "https://www.banhalminorbert.hu"
+        ]
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.banhalmi.art/?lang=de#gallery#collection",
+      "url": "https://www.banhalmi.art/?lang=de#gallery",
+      "name": "BANHALMI Best of Gallery",
+      "about": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi",
+        "sameAs": [
+          "https://www.banhalmi.art/curators?lang=de",
+          "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+          "https://www.banhalmi.art/?lang=de#partnerek"
+        ]
+      }
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic",
+      "name": "BANHALMI guided quote pricing logic",
+      "url": "https://www.banhalmi.at/pricing.json"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.banhalmi.at/faq.json",
+      "name": "Häufige Fragen",
+      "url": "https://www.banhalmi.at/faq.json"
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://www.banhalmi.at/image-catalog.json",
+      "name": "Bildkatalog",
+      "url": "https://www.banhalmi.at/image-catalog.json"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.wikidata.org/wiki/Q138413481",
+      "name": "AmCham Austria — American Chamber of Commerce in Austria",
+      "sameAs": "https://www.wikidata.org/wiki/Q138413481"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.wikidata.org/wiki/Q138413557",
+      "name": "MFVSZ — Magyar Fotóművészek Világszövetsége",
+      "sameAs": "https://www.wikidata.org/wiki/Q138413557"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.wikidata.org/wiki/Q138424838",
+      "name": "WKO Berufsfotografie — Österreichische Fotografenkammer",
+      "sameAs": "https://www.wikidata.org/wiki/Q138424838"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.wikidata.org/wiki/Q138426842",
+      "name": "Ébredés: Az Új kezdet!",
+      "sameAs": "https://www.wikidata.org/wiki/Q138426842",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Elek Erika"
+        },
+        {
+          "@type": "Person",
+          "name": "Norbert Banhalmi",
+          "@id": "https://www.banhalmi.art/norbert-banhalmi",
+          "alternateName": [
+            "Bánhalmi Norbert",
+            "Norbert Bánhalmi"
+          ],
+          "url": "https://www.banhalmi.art/norbert-banhalmi",
+          "mainEntityOfPage": {
+            "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+          },
+          "jobTitle": [
+            "Executive-Porträtkünstler",
+            "Stratege für visuelle Positionierung",
+            "Fine-Art-Fotograf",
+            "Berater für Brand-Fotografie"
+          ],
+          "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+          "knowsAbout": [
+            "Executive-Porträtfotografie",
+            "visuelle Positionierung",
+            "Brand-Fotografie",
+            "Personal-Branding-Fotografie",
+            "Fine-Art-Fotografie",
+            "C-Level-Eventfotografie",
+            "Fotografie in Wien",
+            "Fotografie in Budapest",
+            "KI-lesbare visuelle Identität",
+            "Knowledge-Graph-Entitätsaufbau"
+          ],
+          "nationality": {
+            "@type": "Country",
+            "name": "Hungary",
+            "sameAs": "https://www.wikidata.org/wiki/Q28"
+          },
+          "workLocation": [
+            {
+              "@type": "City",
+              "name": "Vienna",
+              "sameAs": "https://www.wikidata.org/wiki/Q1741"
+            },
+            {
+              "@type": "City",
+              "name": "Budapest",
+              "sameAs": "https://www.wikidata.org/wiki/Q1781"
+            }
+          ],
+          "brand": {
+            "@id": "https://www.norbertbanhalmi.com/#brand",
+            "@type": "Brand",
+            "name": "BANHALMI",
+            "alternateName": [
+              "Bánhalmi Norbert Photography",
+              "Norbert Banhalmi Photography"
+            ],
+            "url": "https://www.norbertbanhalmi.com/",
+            "founder": {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+            }
+          },
+          "sameAs": [
+            "https://www.banhalmi.art/norbert-banhalmi",
+            "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+            "https://www.wikidata.org/wiki/Q56391118"
+          ],
+          "subjectOf": [
+            {
+              "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+            },
+            {
+              "@id": "https://www.banhalmi.at/faq.json"
+            },
+            {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+            }
+          ]
+        }
+      ],
+      "datePublished": "2017",
+      "isbn": "9789631286632"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.wikidata.org/wiki/Q138667529",
+      "name": "Szösszenetek",
+      "sameAs": "https://www.wikidata.org/wiki/Q138667529",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Vincent & Vincent"
+        },
+        {
+          "@type": "Person",
+          "name": "Norbert Banhalmi",
+          "@id": "https://www.banhalmi.art/norbert-banhalmi",
+          "alternateName": [
+            "Bánhalmi Norbert",
+            "Norbert Bánhalmi"
+          ],
+          "url": "https://www.banhalmi.art/norbert-banhalmi",
+          "mainEntityOfPage": {
+            "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+          },
+          "jobTitle": [
+            "Executive-Porträtkünstler",
+            "Stratege für visuelle Positionierung",
+            "Fine-Art-Fotograf",
+            "Berater für Brand-Fotografie"
+          ],
+          "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+          "knowsAbout": [
+            "Executive-Porträtfotografie",
+            "visuelle Positionierung",
+            "Brand-Fotografie",
+            "Personal-Branding-Fotografie",
+            "Fine-Art-Fotografie",
+            "C-Level-Eventfotografie",
+            "Fotografie in Wien",
+            "Fotografie in Budapest",
+            "KI-lesbare visuelle Identität",
+            "Knowledge-Graph-Entitätsaufbau"
+          ],
+          "nationality": {
+            "@type": "Country",
+            "name": "Hungary",
+            "sameAs": "https://www.wikidata.org/wiki/Q28"
+          },
+          "workLocation": [
+            {
+              "@type": "City",
+              "name": "Vienna",
+              "sameAs": "https://www.wikidata.org/wiki/Q1741"
+            },
+            {
+              "@type": "City",
+              "name": "Budapest",
+              "sameAs": "https://www.wikidata.org/wiki/Q1781"
+            }
+          ],
+          "brand": {
+            "@id": "https://www.norbertbanhalmi.com/#brand",
+            "@type": "Brand",
+            "name": "BANHALMI",
+            "alternateName": [
+              "Bánhalmi Norbert Photography",
+              "Norbert Banhalmi Photography"
+            ],
+            "url": "https://www.norbertbanhalmi.com/",
+            "founder": {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+            }
+          },
+          "sameAs": [
+            "https://www.banhalmi.art/norbert-banhalmi",
+            "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+            "https://www.wikidata.org/wiki/Q56391118"
+          ],
+          "subjectOf": [
+            {
+              "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+            },
+            {
+              "@id": "https://www.banhalmi.at/faq.json"
+            },
+            {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+            }
+          ]
+        }
+      ],
+      "datePublished": "2017",
+      "isbn": "2310005245015"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.wikidata.org/wiki/Q138426876",
+      "name": "A Nő világa",
+      "sameAs": "https://www.wikidata.org/wiki/Q138426876",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Vámos Miklós"
+        },
+        {
+          "@type": "Person",
+          "name": "Norbert Banhalmi",
+          "@id": "https://www.banhalmi.art/norbert-banhalmi",
+          "alternateName": [
+            "Bánhalmi Norbert",
+            "Norbert Bánhalmi"
+          ],
+          "url": "https://www.banhalmi.art/norbert-banhalmi",
+          "mainEntityOfPage": {
+            "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+          },
+          "jobTitle": [
+            "Executive-Porträtkünstler",
+            "Stratege für visuelle Positionierung",
+            "Fine-Art-Fotograf",
+            "Berater für Brand-Fotografie"
+          ],
+          "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+          "knowsAbout": [
+            "Executive-Porträtfotografie",
+            "visuelle Positionierung",
+            "Brand-Fotografie",
+            "Personal-Branding-Fotografie",
+            "Fine-Art-Fotografie",
+            "C-Level-Eventfotografie",
+            "Fotografie in Wien",
+            "Fotografie in Budapest",
+            "KI-lesbare visuelle Identität",
+            "Knowledge-Graph-Entitätsaufbau"
+          ],
+          "nationality": {
+            "@type": "Country",
+            "name": "Hungary",
+            "sameAs": "https://www.wikidata.org/wiki/Q28"
+          },
+          "workLocation": [
+            {
+              "@type": "City",
+              "name": "Vienna",
+              "sameAs": "https://www.wikidata.org/wiki/Q1741"
+            },
+            {
+              "@type": "City",
+              "name": "Budapest",
+              "sameAs": "https://www.wikidata.org/wiki/Q1781"
+            }
+          ],
+          "brand": {
+            "@id": "https://www.norbertbanhalmi.com/#brand",
+            "@type": "Brand",
+            "name": "BANHALMI",
+            "alternateName": [
+              "Bánhalmi Norbert Photography",
+              "Norbert Banhalmi Photography"
+            ],
+            "url": "https://www.norbertbanhalmi.com/",
+            "founder": {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+            }
+          },
+          "sameAs": [
+            "https://www.banhalmi.art/norbert-banhalmi",
+            "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+            "https://www.wikidata.org/wiki/Q56391118"
+          ],
+          "subjectOf": [
+            {
+              "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+            },
+            {
+              "@id": "https://www.banhalmi.at/faq.json"
+            },
+            {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Lénárt Éva"
+        }
+      ],
+      "datePublished": "2018",
+      "isbn": "9786150018294"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.wikidata.org/wiki/Q138667343",
+      "name": "Mesés",
+      "sameAs": "https://www.wikidata.org/wiki/Q138667343",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Norbert Banhalmi",
+          "@id": "https://www.banhalmi.art/norbert-banhalmi",
+          "alternateName": [
+            "Bánhalmi Norbert",
+            "Norbert Bánhalmi"
+          ],
+          "url": "https://www.banhalmi.art/norbert-banhalmi",
+          "mainEntityOfPage": {
+            "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+          },
+          "jobTitle": [
+            "Executive-Porträtkünstler",
+            "Stratege für visuelle Positionierung",
+            "Fine-Art-Fotograf",
+            "Berater für Brand-Fotografie"
+          ],
+          "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+          "knowsAbout": [
+            "Executive-Porträtfotografie",
+            "visuelle Positionierung",
+            "Brand-Fotografie",
+            "Personal-Branding-Fotografie",
+            "Fine-Art-Fotografie",
+            "C-Level-Eventfotografie",
+            "Fotografie in Wien",
+            "Fotografie in Budapest",
+            "KI-lesbare visuelle Identität",
+            "Knowledge-Graph-Entitätsaufbau"
+          ],
+          "nationality": {
+            "@type": "Country",
+            "name": "Hungary",
+            "sameAs": "https://www.wikidata.org/wiki/Q28"
+          },
+          "workLocation": [
+            {
+              "@type": "City",
+              "name": "Vienna",
+              "sameAs": "https://www.wikidata.org/wiki/Q1741"
+            },
+            {
+              "@type": "City",
+              "name": "Budapest",
+              "sameAs": "https://www.wikidata.org/wiki/Q1781"
+            }
+          ],
+          "brand": {
+            "@id": "https://www.norbertbanhalmi.com/#brand",
+            "@type": "Brand",
+            "name": "BANHALMI",
+            "alternateName": [
+              "Bánhalmi Norbert Photography",
+              "Norbert Banhalmi Photography"
+            ],
+            "url": "https://www.norbertbanhalmi.com/",
+            "founder": {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi"
+            },
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+            }
+          },
+          "sameAs": [
+            "https://www.banhalmi.art/norbert-banhalmi",
+            "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+            "https://www.wikidata.org/wiki/Q56391118"
+          ],
+          "subjectOf": [
+            {
+              "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+            },
+            {
+              "@id": "https://www.banhalmi.at/faq.json"
+            },
+            {
+              "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ExhibitionEvent",
+      "@id": "https://www.wikidata.org/wiki/Q138454278",
+      "name": "Mérföldkövek '56",
+      "sameAs": "https://www.wikidata.org/wiki/Q138454278",
+      "organizer": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "New York"
+      }
+    },
+    {
+      "@type": "ExhibitionEvent",
+      "@id": "https://www.wikidata.org/wiki/Q138454296",
+      "name": "Magyar Nők New Yorkban",
+      "sameAs": "https://www.wikidata.org/wiki/Q138454296",
+      "organizer": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "New York-i Magyar Ház, New York"
+      },
+      "startDate": "2014"
+    },
+    {
+      "@type": "ExhibitionEvent",
+      "@id": "https://www.wikidata.org/wiki/Q138454309",
+      "name": "Ébredés (kiállítás)",
+      "sameAs": "https://www.wikidata.org/wiki/Q138454309",
+      "organizer": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      }
+    },
+    {
+      "@type": "ExhibitionEvent",
+      "@id": "https://www.wikidata.org/wiki/Q138454318",
+      "name": "Balerina projekt",
+      "sameAs": "https://www.wikidata.org/wiki/Q138454318",
+      "organizer": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "New York"
+      }
+    }
+  ],
+  "seo_geo_focus": {
+    "primary_person": "Norbert Banhalmi / Bánhalmi Norbert",
+    "brand": "BANHALMI",
+    "positioning": [
+      "executive portrait photography",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine art portrait photography"
+    ],
+    "geography": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "Austria",
+      "Hungary"
+    ],
+    "editorial_principle": "Portraiture is treated as trust, presence and human attention before it becomes a service.",
+    "primary_entity": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "professionalNetwork": {
+    "name": "BANHALMI Professional Creative Network",
+    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive Portrait, Markenfotografie, visuelle Positionierung, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
+    "approximateNumberOfCollaboratingProfessionals": "nearly 50",
+    "keyOperationalPartner": {
+      "name": "Speier Viko",
+      "role": "Close operational partner and company representative within AmCham Austria"
+    },
+    "affiliations": [
+      "OM SYSTEM Ambassador Network",
+      "VIPACH – Vienna Photo Art & Creative Hub",
+      "Weltverband Ungarischer Fotokünstler",
+      "AmCham Austria",
+      "WKO"
+    ],
+    "areasServed": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "international assignments"
+    ],
+    "serviceCapacity": [
+      "executive portraiture",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine-art photography",
+      "corporate productions",
+      "mobile studio productions"
+    ]
+  },
+  "editorialVoice": "Redaktionelle Stimme: Ich spreche in der ersten Person. Ich beginne mit Aufmerksamkeit, nicht mit der Kamera. Die Arbeit handelt von Würde, Präsenz und Vertrauen, bevor sie Fotografie wird."
+}

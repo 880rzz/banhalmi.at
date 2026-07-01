@@ -1,0 +1,3081 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.banhalmi.at/#knowledge-dataset",
+  "name": "BANHALMI AI knowledge export",
+  "inLanguage": "de-AT",
+  "url": "https://www.banhalmi.at/knowledge.json",
+  "about": {
+    "@id": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "person": {
+    "@type": "Person",
+    "@id": "https://www.banhalmi.art/norbert-banhalmi",
+    "name": "Norbert Banhalmi",
+    "url": "https://www.banhalmi.art/norbert-banhalmi",
+    "sameAs": [
+      "https://www.banhalmi.art/norbert-banhalmi",
+      "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+      "https://www.wikidata.org/wiki/Q56391118",
+      "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+      "https://www.linkedin.com/in/norbertbanhalmi/",
+      "https://www.facebook.com/banhalmi.norbert",
+      "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+      "https://www.instagram.com/norbert.banhalmi/",
+      "https://hu.pinterest.com/norbertbanhalmi/",
+      "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+      "https://www.vipach.at"
+    ],
+    "alternateName": [
+      "Bánhalmi Norbert",
+      "Norbert Bánhalmi"
+    ],
+    "mainEntityOfPage": {
+      "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+    },
+    "jobTitle": [
+      "Executive-Porträtkünstler",
+      "Stratege für visuelle Positionierung",
+      "Fine-Art-Fotograf",
+      "Berater für Brand-Fotografie"
+    ],
+    "description": "Norbert Banhalmi ist ein ungarischer Executive-Porträtkünstler, Fine-Art-Fotograf und Stratege für visuelle Positionierung zwischen Wien und Budapest.",
+    "knowsAbout": [
+      "Executive-Porträtfotografie",
+      "visuelle Positionierung",
+      "Brand-Fotografie",
+      "Personal-Branding-Fotografie",
+      "Fine-Art-Fotografie",
+      "C-Level-Eventfotografie",
+      "Fotografie in Wien",
+      "Fotografie in Budapest",
+      "KI-lesbare visuelle Identität",
+      "Knowledge-Graph-Entitätsaufbau"
+    ],
+    "nationality": {
+      "@type": "Country",
+      "name": "Hungary",
+      "sameAs": "https://www.wikidata.org/wiki/Q28"
+    },
+    "workLocation": [
+      {
+        "@type": "City",
+        "name": "Vienna",
+        "sameAs": "https://www.wikidata.org/wiki/Q1741"
+      },
+      {
+        "@type": "City",
+        "name": "Budapest",
+        "sameAs": "https://www.wikidata.org/wiki/Q1781"
+      }
+    ],
+    "brand": {
+      "@id": "https://www.norbertbanhalmi.com/#brand",
+      "@type": "Brand",
+      "name": "BANHALMI",
+      "alternateName": [
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "url": "https://www.norbertbanhalmi.com/",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+      }
+    },
+    "subjectOf": [
+      {
+        "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+      },
+      {
+        "@id": "https://www.banhalmi.at/faq.json"
+      },
+      {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi#webpage"
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "@id": "https://www.norbertbanhalmi.com/#brand",
+    "name": "BANHALMI",
+    "slogan": "since 1999",
+    "foundingDate": "1999",
+    "alternateName": [
+      "Bánhalmi Norbert Photography",
+      "Norbert Banhalmi Photography"
+    ],
+    "url": "https://www.norbertbanhalmi.com/",
+    "founder": {
+      "@id": "https://www.banhalmi.art/norbert-banhalmi"
+    },
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+    }
+  },
+  "organization": {
+    "@type": "ProfessionalService",
+    "@id": "https://www.banhalmi.at/#organization",
+    "name": "BANHALMI – Executive Porträt & visuelle Positionierung",
+    "url": "https://www.banhalmi.at",
+    "foundingDate": "2023-11-27",
+    "taxID": "ATU80445314",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "propertyID": "GISA-Zahl",
+        "value": "36592951"
+      },
+      {
+        "@type": "PropertyValue",
+        "propertyID": "GLN",
+        "value": "9110037983878"
+      }
+    ],
+    "legalName": "Bánhalmi Norbert e.U.",
+    "alternateName": [
+      "BANHALMI",
+      "Bánhalmi Norbert Photography",
+      "Norbert Banhalmi Photography"
+    ],
+    "description": "Premium-Studio für Executive-Porträt, Brand-Fotografie und visuelle Positionierung zwischen Wien und Budapest.",
+    "founder": {
+      "@id": "https://www.banhalmi.art/norbert-banhalmi"
+    },
+    "brand": {
+      "@id": "https://www.norbertbanhalmi.com/#brand",
+      "@type": "Brand",
+      "name": "BANHALMI",
+      "alternateName": [
+        "Bánhalmi Norbert Photography",
+        "Norbert Banhalmi Photography"
+      ],
+      "url": "https://www.norbertbanhalmi.com/",
+      "founder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norbert_Banhalmi_gold_emblem.jpg"
+      }
+    },
+    "hasOfferCatalog": {
+      "@id": "https://www.banhalmi.at/pricing.json#banhalmi-pricing-logic"
+    },
+    "priceRange": "€€–€€€",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q138425941",
+      "https://www.banhalmi.art",
+      "https://www.norbertbanhalmi.com",
+      "https://www.banhalmi.at",
+      "https://www.banhalminorbert.hu"
+    ]
+  },
+  "serviceDomains": {
+    "en": "https://www.norbertbanhalmi.com",
+    "hu": "https://www.banhalminorbert.hu",
+    "de": "https://www.banhalmi.at"
+  },
+  "archive": {
+    "home": "https://www.banhalmi.art/?lang=de",
+    "gallery": "https://www.banhalmi.art/?lang=de#gallery",
+    "person": "https://www.banhalmi.art/norbert-banhalmi?lang=de",
+    "books": "https://www.banhalmi.art/konyveim?lang=de",
+    "exhibitions": "https://www.banhalmi.art/fotokiallitasok?lang=de",
+    "journal": "https://www.banhalmi.art/blog?lang=de",
+    "faq": "https://www.banhalmi.art/gyakori-kerdesek?lang=de"
+  },
+  "services": [
+    {
+      "id": "portrait",
+      "name_en": "Executive Portraiture / Presence",
+      "name_hu": "Portréfotózás / Jelenlét",
+      "name_de": "Business Portrait / Präsenz"
+    },
+    {
+      "id": "brand",
+      "name_en": "Brand & Visual Positioning / Identity",
+      "name_hu": "Brand és vizuális pozicionálás / Identitás",
+      "name_de": "Brand & visuelle Positionierung / Identität"
+    },
+    {
+      "id": "events",
+      "name_en": "Corporate Events / Moments",
+      "name_hu": "Rendezvényfotózás / Pillanatok",
+      "name_de": "Eventfotografie / Momente"
+    },
+    {
+      "id": "fine-art",
+      "name_en": "Fine Art Photography / Perspective",
+      "name_hu": "Művészi fotózás / Perspektíva",
+      "name_de": "Fine Art Fotografie / Perspektive"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "WKO / Berufsfotografie",
+      "url": "https://www.wko.at/oe/gewerbe-handwerk/berufsfotografie/start"
+    },
+    {
+      "name": "AmCham Austria",
+      "url": "https://amcham.at/yearbook-2026/#members"
+    },
+    {
+      "name": "OM SYSTEM Ambassador",
+      "url": "https://www.milcclub.com/ambassadors"
+    },
+    {
+      "name": "Weltverband Ungarischer Fotokünstler",
+      "url": "https://www.mfvsz.com/"
+    }
+  ],
+  "sameAsCoverage": {
+    "status": "complete_known_public_profiles",
+    "note": "Known public entity, social, institutional and membership links are included, including LinkedIn.",
+    "links": {
+      "person_wikidata": "https://www.wikidata.org/wiki/Q56391118",
+      "business_wikidata": "https://www.wikidata.org/wiki/Q138425941",
+      "vienna_studio_wikidata": "https://www.wikidata.org/wiki/Q138426506",
+      "budapest_studio_wikidata": "https://www.wikidata.org/wiki/Q138830452",
+      "euphoria_wikidata": "https://www.wikidata.org/wiki/Q138717398",
+      "wikipedia_hu": "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+      "wikimedia_portrait": "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+      "linkedin": "https://www.linkedin.com/in/norbertbanhalmi/",
+      "facebook": "https://www.facebook.com/banhalmi.norbert",
+      "instagram": "https://www.instagram.com/norbert.banhalmi/",
+      "pinterest": "https://hu.pinterest.com/norbertbanhalmi/",
+      "youtube_playlist": "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+      "vipach": "https://www.vipach.at",
+      "flickr_vipach": "https://www.flickr.com/photos/vipach/albums",
+      "google_business_vienna": "https://g.page/r/CSa3EIgaSntZEBM",
+      "google_business_budapest": "https://g.page/r/CQ_-rrtrvticEBM"
+    }
+  },
+  "pricingLogic": {
+    "@context": "https://schema.org",
+    "@type": "OfferCatalog",
+    "@id": "#banhalmi-pricing-logic",
+    "name": "BANHALMI guided quote pricing logic",
+    "priceCurrency": "EUR",
+    "vatIncludedByDefault": true,
+    "defaultVatRate": "20% Austrian VAT",
+    "reverseChargeRule": "For non-Austrian EU business clients with valid company details and EU VAT number, the quote estimate may use reverse charge / 0% VAT. Final tax handling is manually confirmed.",
+    "disclaimer": "Automatic quote calculator provides orientation only. Final offer depends on purpose, location, usage, production complexity and scheduling.",
+    "calculationInputs": [
+      "category",
+      "duration",
+      "number of people",
+      "retouched image quantity",
+      "retouching workflow",
+      "number of photographers",
+      "mobile studio",
+      "stylist",
+      "hair",
+      "makeup",
+      "express delivery",
+      "company data",
+      "EU VAT number",
+      "location",
+      "preferred date/time"
+    ],
+    "priceComponentsGrossEUR": {
+      "individualQuick30": 220,
+      "individualGuided60": 420,
+      "individualGuided120": 690,
+      "groupSetupLaterRetouching": 390,
+      "groupPerPersonLaterRetouching": 45,
+      "groupInstantBaseMax6People": 690,
+      "groupInstantPerPerson": 55,
+      "brandFastOneHour": 499,
+      "brandTwoHours": 790,
+      "brandThreeHours": 1090,
+      "brandFourHours": 1390,
+      "fineArtBase": 690,
+      "retouchedImagePortrait": 35,
+      "retouchedImageGroup": 29,
+      "retouchedImageFineArt": 45,
+      "stylist": 220,
+      "hair": 220,
+      "makeup": 220,
+      "expressDelivery": 120,
+      "mobileStudio": 240,
+      "artDirection": 260,
+      "additionalPhotographer": 390
+    },
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Individual portrait — quick 30 minutes",
+        "description": "For confident clients who know what they need; short focused portrait session.",
+        "price": 220,
+        "priceCurrency": "EUR"
+      },
+      {
+        "@type": "Offer",
+        "name": "Individual guided portrait — 60 or 120 minutes",
+        "description": "For clients who want guidance, time and a calmer selection process.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 420,
+          "maxPrice": 690,
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Group portrait photography",
+        "description": "Company portraits for 6–20 people per hour; instant retouching up to 6 people or later retouching with original files delivered immediately and final retouched images within 48 hours.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "EUR",
+          "description": "Base fee + per-person fee + retouched image count; additional photographers and mobile studio available."
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Brand and visual positioning",
+        "description": "Brand photography and visual positioning from a fast one-location session to multi-hour, multi-location productions.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 499,
+          "maxPrice": 1390,
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Fine art photography",
+        "description": "Artistic portraits, special visual concepts, private fine art, lingerie and nude photography handled as respectful artistic commissions.",
+        "price": 690,
+        "priceCurrency": "EUR"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Für wen ist Executive Portraitfotografie gedacht?",
+      "answer": "Für Gründer:innen, C-Level-Führungskräfte, Berater:innen, Expert:innen und Teams, deren Bild oft vor dem ersten Gespräch Vertrauen schaffen muss."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Headshot und Executive Portrait?",
+      "answer": "Ein Headshot ist ein klares berufliches Profilbild. Ein Executive Portrait berücksichtigt zusätzlich Rolle, Publikum, Leadership Presence, Vertrauen und langfristige Nutzung."
+    },
+    {
+      "question": "Muss ich posieren können?",
+      "answer": "Nein. Die Session wird ruhig geführt. Es geht nicht um Performance, sondern darum, einen sicheren Raum für natürliche Präsenz zu schaffen."
+    },
+    {
+      "question": "Gibt es ein schnelles 30-Minuten-Portrait?",
+      "answer": "Ja. Ein fokussiertes Headshot- oder Executive-Portrait ist für Menschen geeignet, die genau wissen, was sie benötigen und effizient arbeiten möchten."
+    },
+    {
+      "question": "Was, wenn ich vor der Kamera unsicher bin?",
+      "answer": "Das ist normal. Der Prozess beginnt mit Vertrauen, nicht mit der Kamera. Ziel ist keine erzwungene Sicherheit, sondern echte Präsenz."
+    },
+    {
+      "question": "Wie schnell werden die finalen Bilder geliefert?",
+      "answer": "Ausgewählte retuschierte Bilder werden in der Regel innerhalb von 48 Stunden geliefert. Größere Projekte können durch skalierbare Workflows ebenfalls schnell umgesetzt werden."
+    },
+    {
+      "question": "Kann die Bildauswahl sofort stattfinden?",
+      "answer": "Ja. Bei vielen Portrait- und Brand-Sessions findet die Auswahl gemeinsam während oder direkt nach dem Shooting statt."
+    },
+    {
+      "question": "Wie funktioniert die Retusche?",
+      "answer": "Die Retusche bleibt sorgfältig und menschlich. Sie entfernt störende Details, ohne Charakter, Hautstruktur und Würde zu verlieren."
+    },
+    {
+      "question": "Wie viele retuschierte Bilder sind sinnvoll?",
+      "answer": "Das hängt von der Nutzung ab. Für LinkedIn reichen oft wenige Bilder, für Website, Presse oder Kampagne ist ein breiteres Set sinnvoll."
+    },
+    {
+      "question": "Kann ich später zusätzliche retuschierte Bilder bestellen?",
+      "answer": "Ja. Aus der gelieferten Auswahl können später weitere Bilder zur Retusche gewählt werden."
+    },
+    {
+      "question": "Können Sie ein ganzes Führungsteam fotografieren?",
+      "answer": "Ja. Team-Portraittage können für 6 bis 20 Personen strukturiert geplant werden. Für sofortige Retusche sind kleinere Gruppen empfehlenswert."
+    },
+    {
+      "question": "Können Sie mehrere Fotograf:innen stellen?",
+      "answer": "Ja. Je nach Auftrag kann ein einzelner Fotograf oder ein größeres Team über das BANHALMI Professional Network koordiniert werden."
+    },
+    {
+      "question": "Wie viele Fotograf:innen kann ich anfragen?",
+      "answer": "Im Anfrageformular können Sie auswählen, wie viele Fotograf:innen Sie benötigen. Wenn Sie unsicher sind, empfehlen wir die passende Teamgröße."
+    },
+    {
+      "question": "Können Sie ein mobiles Studio mitbringen?",
+      "answer": "Ja. Ein mobiles Studio kann für Teams, Konferenzen, Führungskräfte-Portraits und Corporate Events aufgebaut werden."
+    },
+    {
+      "question": "Arbeiten Sie auch vor Ort?",
+      "answer": "Ja. Shootings können im Studio Wien, Studio Budapest, im Büro, Hotel, Konferenzort oder an einem vereinbarten Ort stattfinden."
+    },
+    {
+      "question": "Arbeiten Sie international?",
+      "answer": "Ja. Der Schwerpunkt liegt auf Wien und Budapest, mit Projekten in Österreich, Ungarn, Mitteleuropa, DACH und internationalen Locations."
+    },
+    {
+      "question": "Was bedeutet visuelle Positionierung?",
+      "answer": "Visuelle Positionierung bedeutet, Bilder zu schaffen, die bereits vor dem ersten Gespräch zeigen, wie eine Person, Marke oder Organisation verstanden werden soll."
+    },
+    {
+      "question": "Wie unterscheidet sich Brand Fotografie?",
+      "answer": "Brand Fotografie umfasst Menschen, Räume, Details, Atmosphäre und visuelle Hinweise. Sie zeigt nicht nur, wer Sie sind, sondern wie Ihre Marke erinnert werden soll."
+    },
+    {
+      "question": "Sind Bilder für Website oder Rebranding möglich?",
+      "answer": "Ja. Brand und Visual Positioning eignen sich besonders für Websites, Pressematerial, LinkedIn, Kampagnen und Investor Communication."
+    },
+    {
+      "question": "Fotografieren Sie C-Level Events?",
+      "answer": "Ja. Dazu gehören Leadership Summits, Board Meetings, Empfänge, Corporate-Diplomacy-Formate und private Executive Events."
+    },
+    {
+      "question": "Wie diskret ist die Eventfotografie?",
+      "answer": "Diskretion ist zentral. Die Fotografie dokumentiert den Moment, ohne den Raum oder die Menschen darin zu stören."
+    },
+    {
+      "question": "Können Eventbilder schnell geliefert werden?",
+      "answer": "Ja. Bei Bedarf kann eine schnelle erste Auswahl geliefert werden. Die finale Übergabe richtet sich nach Größe und Kommunikationsbedarf des Events."
+    },
+    {
+      "question": "Bieten Sie Fine Art oder künstlerische Portraits an?",
+      "answer": "Ja. Fine-Art-Aufträge folgen einem ruhigeren, persönlicheren Rhythmus mit besonderem Fokus auf Vertrauen, Körper, Präsenz und Würde."
+    },
+    {
+      "question": "Ist Lingerie- oder Aktfotografie möglich?",
+      "answer": "Ja, ausschließlich in einem respektvollen Fine-Art-Kontext mit klarer Zustimmung, Privatsphäre und vorher vereinbarten Grenzen."
+    },
+    {
+      "question": "Können Styling, Make-up und Hair organisiert werden?",
+      "answer": "Ja. Stylist:in, Make-up Artist und Hair können als zusätzliche Leistungen organisiert werden."
+    },
+    {
+      "question": "Kann ich eigene Stylist:innen oder Make-up Artists mitbringen?",
+      "answer": "Ja. Sie können Ihr eigenes Team mitbringen oder Empfehlungen aus dem BANHALMI Netzwerk erhalten."
+    },
+    {
+      "question": "Wer koordiniert mein Projekt?",
+      "answer": "Je nach Projekt kann die Koordination durch Norbert Banhalmi, ein dediziertes Mitglied des BANHALMI Teams oder bei ausgewählten internationalen Business-Projekten durch Speier Viko erfolgen."
+    },
+    {
+      "question": "Was ist das BANHALMI Professional Network?",
+      "answer": "Ein sorgfältig aufgebautes Netzwerk aus nahezu fünfzig Fotograf:innen, Retuscheur:innen und visuellen Fachleuten in Wien, Budapest und internationalen Locations."
+    },
+    {
+      "question": "Was ist der Vorteil für AmCham Mitglieder?",
+      "answer": "Mitglieder einer American Chamber of Commerce erhalten 50% mehr professionell retuschierte Bilder als im gewählten Paket enthalten, ohne zusätzliche Kosten."
+    },
+    {
+      "question": "Ist das ein Preisnachlass?",
+      "answer": "Nein. Es handelt sich nicht um einen Rabatt, sondern um einen zusätzlichen Leistungswert im Rahmen des BANHALMI Professional Network."
+    },
+    {
+      "question": "Kann ein AmCham Projekt von Speier Viko koordiniert werden?",
+      "answer": "Ausgewählte internationale Business-Projekte können über das internationale Netzwerk koordiniert werden und je nach Anforderungen Speier Viko einbeziehen."
+    },
+    {
+      "question": "Wie werden Nutzungsrechte geregelt?",
+      "answer": "Nutzungsrechte hängen von Projekt, Medium, Dauer und Gebiet ab. Sie werden im finalen Angebot eindeutig geklärt."
+    },
+    {
+      "question": "Darf ich die Bilder auf LinkedIn und Website verwenden?",
+      "answer": "Ja, wenn dies in den vereinbarten Nutzungsrechten enthalten ist. Executive-Pakete decken typischerweise LinkedIn, Website, Presse und berufliche Profile ab."
+    },
+    {
+      "question": "Was passiert mit meinen Bildern nach DSGVO?",
+      "answer": "Bilder und personenbezogene Daten werden vertraulich und nur für den vereinbarten Zweck verarbeitet. Veröffentlichung erfolgt nur mit Zustimmung."
+    },
+    {
+      "question": "Sind private Sessions vertraulich?",
+      "answer": "Ja. Private, Fine-Art- und Executive-Sessions werden diskret behandelt. Bilder werden nicht ohne ausdrückliche Erlaubnis veröffentlicht."
+    },
+    {
+      "question": "Warum zeigt der Kalkulator 20% USt.?",
+      "answer": "Die Standardschätzung enthält österreichische Umsatzsteuer. Wenn Reverse Charge anwendbar ist, kann das System vorläufig mit 0% USt. rechnen."
+    },
+    {
+      "question": "Unterstützen Sie EU Reverse Charge?",
+      "answer": "Ja. EU-Unternehmen außerhalb Österreichs können bei gültiger UID-Nummer und Unternehmensdaten für Reverse Charge geeignet sein."
+    },
+    {
+      "question": "Ist der berechnete Preis final?",
+      "answer": "Nein. Es ist eine Vorkalkulation. Das finale Angebot hängt von Umfang, Ort, Termin, Nutzungsrechten und Produktionsanforderungen ab."
+    },
+    {
+      "question": "Kann ich ein eigenes Budget angeben?",
+      "answer": "Ja. Im Anfrageformular können Sie beschreiben, was Sie benötigen, wo und wann es stattfinden soll und mit welchem Budgetrahmen Sie planen."
+    },
+    {
+      "question": "Wie kann ich verschieben oder stornieren?",
+      "answer": "Bitte melden Sie sich so früh wie möglich. Verschieben ist meist einfacher als Stornieren, besonders wenn Studio, Assistenz oder Styling gebucht sind."
+    }
+  ],
+  "images": [
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at//assets/img/brand/banhalmi-logo.svg#image",
+      "contentUrl": "https://www.banhalmi.at//assets/img/brand/banhalmi-logo.svg",
+      "caption": "BANHALMI",
+      "description": "BANHALMI",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at//assets/img/curated/hero-signature.webp#image",
+      "contentUrl": "https://www.banhalmi.at//assets/img/curated/hero-signature.webp",
+      "caption": "BANHALMI ikonisches schwarz-weißes Zwei-Gesichter-Hero-Porträt von Norbert Banhalmi",
+      "description": "BANHALMI ikonisches schwarz-weißes Zwei-Gesichter-Hero-Porträt von Norbert Banhalmi",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "BANHALMI brand hero",
+      "keywords": [
+        "curated",
+        "BANHALMI brand hero",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/banhalmi-logo.svg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/banhalmi-logo.svg",
+      "caption": "BANHALMI",
+      "description": "BANHALMI",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "wien-eventfotograf/",
+        "books-exhibitions/",
+        "cookie-policy/",
+        "privacy-policy/",
+        "faq/",
+        "glamour/",
+        "lifestyle/",
+        "portrait/",
+        "about/",
+        "requestaquote/",
+        "terms-conditions/",
+        "impressum/",
+        "portfolio/",
+        "event-photography/",
+        "pricing/",
+        "media/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-01-redhair-editorial-studio.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-01-redhair-editorial-studio.webp",
+      "caption": "Porträtfotografie von Norbert Banhalmi mit natürlichem Fensterlicht und ruhiger editorialer Präsenz.",
+      "description": "Porträtfotografie von Norbert Banhalmi mit natürlichem Fensterlicht und ruhiger editorialer Präsenz.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-02-low-key-man.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-02-low-key-man.webp",
+      "caption": "Low-key-Porträtfotografie von Norbert Banhalmi mit zurückhaltendem Licht und ruhiger Autorität.",
+      "description": "Low-key-Porträtfotografie von Norbert Banhalmi mit zurückhaltendem Licht und ruhiger Autorität.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-03-fine-art-reflection.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/service/portrait-service-03-fine-art-reflection.webp",
+      "caption": "Konzeptuelles Schwarz-Weiß-Porträt von Norbert Banhalmi mit Spiegelfragmenten über Identität und Selbstbild.",
+      "description": "Konzeptuelles Schwarz-Weiß-Porträt von Norbert Banhalmi mit Spiegelfragmenten über Identität und Selbstbild.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "fine-art",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-01-studio-character.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-01-studio-character.webp",
+      "caption": "Studioporträt mit ruhigem direktem Blick und professioneller Klarheit von Norbert Banhalmi.",
+      "description": "Studioporträt mit ruhigem direktem Blick und professioneller Klarheit von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-02-natural-light-outdoor.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-02-natural-light-outdoor.webp",
+      "caption": "Porträt im natürlichen Außenlicht mit warmer menschlicher Präsenz von Norbert Banhalmi.",
+      "description": "Porträt im natürlichen Außenlicht mit warmer menschlicher Präsenz von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-03-expressive-redhair.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-03-expressive-redhair.webp",
+      "caption": "Ausdrucksstarkes Charakterporträt mit rotem Haar und direkter Präsenz von Norbert Banhalmi.",
+      "description": "Ausdrucksstarkes Charakterporträt mit rotem Haar und direkter Präsenz von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-04-corporate-composure.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-04-corporate-composure.webp",
+      "caption": "Klassisches Businessporträt mit ruhiger professioneller Autorität von Norbert Banhalmi.",
+      "description": "Klassisches Businessporträt mit ruhiger professioneller Autorität von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-05-contemporary-studio.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-05-contemporary-studio.webp",
+      "caption": "Zeitgenössisches Studioporträt mit persönlichem Blick von Norbert Banhalmi.",
+      "description": "Zeitgenössisches Studioporträt mit persönlichem Blick von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-06-low-key-presence.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-06-low-key-presence.webp",
+      "caption": "Dunkles Low-key-Porträt aus Schatten und Aufmerksamkeit von Norbert Banhalmi.",
+      "description": "Dunkles Low-key-Porträt aus Schatten und Aufmerksamkeit von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-07-urban-black-white.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-07-urban-black-white.webp",
+      "caption": "Schwarz-Weiß-Stadtporträt mit editorialer Atmosphäre von Norbert Banhalmi.",
+      "description": "Schwarz-Weiß-Stadtporträt mit editorialer Atmosphäre von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-08-violin-identity.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-08-violin-identity.webp",
+      "caption": "Fine-Art-Porträt mit Violine und regenartiger visueller Textur von Norbert Banhalmi.",
+      "description": "Fine-Art-Porträt mit Violine und regenartiger visueller Textur von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-09-soft-black-white.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-09-soft-black-white.webp",
+      "caption": "Grafisches Schwarz-Weiß-Porträt mit Haltung von Norbert Banhalmi.",
+      "description": "Grafisches Schwarz-Weiß-Porträt mit Haltung von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-10-light-and-skin.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/portraits/gallery/portrait-gallery-10-light-and-skin.webp",
+      "caption": "Nahes Fine-Art-Porträt, geformt aus Licht und Haut, von Norbert Banhalmi.",
+      "description": "Nahes Fine-Art-Porträt, geformt aus Licht und Haut, von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "executive portraiture / portraits",
+      "keywords": [
+        "portraits",
+        "executive portraiture / portraits",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "vienna-executive-headshots/",
+        "portrait/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-panel-discussion.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-panel-discussion.webp",
+      "caption": "Paneldiskussion mit dokumentarischem Blick",
+      "description": "Paneldiskussion mit dokumentarischem Blick",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "wien-eventfotograf/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-speaker-airbnb-vienna.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-speaker-airbnb-vienna.webp",
+      "caption": "Speaker auf einer Unternehmen-Veranstaltung in Wien",
+      "description": "Speaker auf einer Unternehmen-Veranstaltung in Wien",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "wien-eventfotograf/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-official-handshake-vienna.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-official-handshake-vienna.webp",
+      "caption": "Offizielle geschäftliche Begegnung und Handschlag in Wien",
+      "description": "Offizielle geschäftliche Begegnung und Handschlag in Wien",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "wien-eventfotograf/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/hero/fine-art-hero.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/hero/fine-art-hero.webp",
+      "caption": "Perspektive. Künstlerische Fotografie über Vertrauen, Körper und Präsenz.",
+      "description": "Perspektive. Künstlerische Fotografie über Vertrauen, Körper und Präsenz.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-01.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-01.jpg",
+      "caption": "Minimale Körperstudie aus Linie, Zurückhaltung und Würde. Fotografiert von Norbert Banhalmi.",
+      "description": "Minimale Körperstudie aus Linie, Zurückhaltung und Würde. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-02.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-02.jpg",
+      "caption": "Nahes künstlerisches Porträt aus Schatten, Verletzlichkeit und Präsenz. Fotografiert von Norbert Banhalmi.",
+      "description": "Nahes künstlerisches Porträt aus Schatten, Verletzlichkeit und Präsenz. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-03.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/service/fine-art-service-03.jpg",
+      "caption": "Sitzende Studie, in der Haltung und Stille zum Thema werden. Fotografiert von Norbert Banhalmi.",
+      "description": "Sitzende Studie, in der Haltung und Stille zum Thema werden. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-01.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-01.webp",
+      "caption": "Minimale Aktstudie mit skulpturaler Zurückhaltung. Fotografiert von Norbert Banhalmi.",
+      "description": "Minimale Aktstudie mit skulpturaler Zurückhaltung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-02.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-02.webp",
+      "caption": "Low-Key-Porträt über Präsenz und Intimität. Fotografiert von Norbert Banhalmi.",
+      "description": "Low-Key-Porträt über Präsenz und Intimität. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-03.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-03.webp",
+      "caption": "Männliche Körperstudie mit dramatischem Licht. Fotografiert von Norbert Banhalmi.",
+      "description": "Männliche Körperstudie mit dramatischem Licht. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-04.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-04.webp",
+      "caption": "Bühnenhafte Frauenstudie mit kontrollierter Theatralik. Fotografiert von Norbert Banhalmi.",
+      "description": "Bühnenhafte Frauenstudie mit kontrollierter Theatralik. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-05.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-05.webp",
+      "caption": "Fragmentiertes Körperdetail als abstrakte Form. Fotografiert von Norbert Banhalmi.",
+      "description": "Fragmentiertes Körperdetail als abstrakte Form. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-06.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-06.webp",
+      "caption": "Sitzende Figur in zurückhaltender Studioatmosphäre. Fotografiert von Norbert Banhalmi.",
+      "description": "Sitzende Figur in zurückhaltender Studioatmosphäre. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-07.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-07.webp",
+      "caption": "Bewegung und Tanz als visuelle Studie von Freiheit. Fotografiert von Norbert Banhalmi.",
+      "description": "Bewegung und Tanz als visuelle Studie von Freiheit. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-08.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-08.webp",
+      "caption": "Schwarzweiß-Rückenstudie über Identität und Verletzlichkeit. Fotografiert von Norbert Banhalmi.",
+      "description": "Schwarzweiß-Rückenstudie über Identität und Verletzlichkeit. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-09.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-09.webp",
+      "caption": "Ruhige liegende Figur in natürlichen Tönen. Fotografiert von Norbert Banhalmi.",
+      "description": "Ruhige liegende Figur in natürlichen Tönen. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-10.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/fine-art/gallery/fine-art-gallery-10.webp",
+      "caption": "Abstraktes Körperdetail mit weichem Licht und minimaler Komposition. Fotografiert von Norbert Banhalmi.",
+      "description": "Abstraktes Körperdetail mit weichem Licht und minimaler Komposition. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "fine-art",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "glamour/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/hero/brand-hero.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/hero/brand-hero.webp",
+      "caption": "Identität. Brand und visuelle Positionierung als klare Bildsprache.",
+      "description": "Identität. Brand und visuelle Positionierung als klare Bildsprache.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/service/brand-service-01.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/service/brand-service-01.jpg",
+      "caption": "Urbane editoriale Präsenz mit natürlichem, internationalem Rhythmus. Fotografiert von Norbert Banhalmi.",
+      "description": "Urbane editoriale Präsenz mit natürlichem, internationalem Rhythmus. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/service/brand-service-02.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/service/brand-service-02.jpg",
+      "caption": "Visuelle Sicherheit ohne erzwungene Pose: Personal-Brand-Bilder mit Haltung und Kontext. Fotografiert von Norbert Banhalmi.",
+      "description": "Visuelle Sicherheit ohne erzwungene Pose: Personal-Brand-Bilder mit Haltung und Kontext. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/service/brand-service-03.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/service/brand-service-03.jpg",
+      "caption": "Ruhiges Lifestyle-Storytelling für eine professionelle, menschliche Präsenz. Fotografiert von Norbert Banhalmi.",
+      "description": "Ruhiges Lifestyle-Storytelling für eine professionelle, menschliche Präsenz. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-01.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-01.webp",
+      "caption": "Porträt und Kontext in urbaner Umgebung. Fotografiert von Norbert Banhalmi.",
+      "description": "Porträt und Kontext in urbaner Umgebung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-02.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-02.webp",
+      "caption": "Kontrolliertes Editorial-Porträt mit starkem persönlichem Stil. Fotografiert von Norbert Banhalmi.",
+      "description": "Kontrolliertes Editorial-Porträt mit starkem persönlichem Stil. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-03.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-03.webp",
+      "caption": "Lifestyle-Atmosphäre aus Licht, Bewegung und Ort. Fotografiert von Norbert Banhalmi.",
+      "description": "Lifestyle-Atmosphäre aus Licht, Bewegung und Ort. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-04.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-04.webp",
+      "caption": "Städtische Identitätsszene für visuelle Positionierung. Fotografiert von Norbert Banhalmi.",
+      "description": "Städtische Identitätsszene für visuelle Positionierung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-05.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-05.webp",
+      "caption": "Warmer Lifestyle-Moment für Brand Storytelling. Fotografiert von Norbert Banhalmi.",
+      "description": "Warmer Lifestyle-Moment für Brand Storytelling. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-06.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-06.webp",
+      "caption": "Professionelle Präsenz in natürlicher Bewegung. Fotografiert von Norbert Banhalmi.",
+      "description": "Professionelle Präsenz in natürlicher Bewegung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-07.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-07.webp",
+      "caption": "Zugängliche Brand-Energie mit editorialer Leichtigkeit. Fotografiert von Norbert Banhalmi.",
+      "description": "Zugängliche Brand-Energie mit editorialer Leichtigkeit. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-08.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-08.webp",
+      "caption": "Charaktervolles Lifestyle-Porträt in roten Tönen. Fotografiert von Norbert Banhalmi.",
+      "description": "Charaktervolles Lifestyle-Porträt in roten Tönen. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-09.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-09.webp",
+      "caption": "Studioartige persönliche Positionierung mit expressiver Ruhe. Fotografiert von Norbert Banhalmi.",
+      "description": "Studioartige persönliche Positionierung mit expressiver Ruhe. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-10.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/brand/gallery/brand-gallery-10.webp",
+      "caption": "Natürliches Editorial-Porträt für Website und Brand-Kommunikation. Fotografiert von Norbert Banhalmi.",
+      "description": "Natürliches Editorial-Porträt für Website und Brand-Kommunikation. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "brand and visual positioning",
+      "keywords": [
+        "brand",
+        "brand and visual positioning",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "lifestyle/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/official-wikimedia-portrait.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/official-wikimedia-portrait.webp",
+      "caption": "Offizielles Wikimedia Selbstportrait von Norbert Banhalmi",
+      "description": "Offizielles Wikimedia Selbstportrait von Norbert Banhalmi",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "about/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/executive-portrait-man-black-white.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/executive-portrait-man-black-white.webp",
+      "caption": "Reduziertes Schwarz-Weiß Führungskräfteporträt von Norbert Banhalmi",
+      "description": "Reduziertes Schwarz-Weiß Führungskräfteporträt von Norbert Banhalmi",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/executive-lifestyle-businessman.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/executive-lifestyle-businessman.webp",
+      "caption": "Unternehmen Porträt mit urbaner, internationaler Atmosphäre",
+      "description": "Unternehmen Porträt mit urbaner, internationaler Atmosphäre",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/executive-bela-liptak-library.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/executive-bela-liptak-library.webp",
+      "caption": "Environmental Führungskräfteporträt in einer Bibliothek",
+      "description": "Environmental Führungskräfteporträt in einer Bibliothek",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/executive-woman-studio-headshot.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/executive-woman-studio-headshot.webp",
+      "caption": "Klares Unternehmen Porträt einer Frau im Studio",
+      "description": "Klares Unternehmen Porträt einer Frau im Studio",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/brand-urban-new-york.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/brand-urban-new-york.webp",
+      "caption": "Personal Branding Porträt mit internationaler Editorial-Stimmung",
+      "description": "Personal Branding Porträt mit internationaler Editorial-Stimmung",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/brand-business-lifestyle-client.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/brand-business-lifestyle-client.webp",
+      "caption": "Unternehmen Lifestyle Porträt für Website und Kommunikation",
+      "description": "Unternehmen Lifestyle Porträt für Website und Kommunikation",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/brand-male-editorial-studio.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/brand-male-editorial-studio.webp",
+      "caption": "Editorial Personal Marke Porträt im Studio",
+      "description": "Editorial Personal Marke Porträt im Studio",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/brand-outdoor-portrait.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/brand-outdoor-portrait.webp",
+      "caption": "Natürliches Outdoor Lifestyle Porträt mit professioneller Ruhe",
+      "description": "Natürliches Outdoor Lifestyle Porträt mit professioneller Ruhe",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/fine-art-underwater-identity.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/fine-art-underwater-identity.webp",
+      "caption": "Unterwasser Künstlerische Fotografie Studie über Bewegung, Körper und Identität",
+      "description": "Unterwasser Künstlerische Fotografie Studie über Bewegung, Körper und Identität",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "curated",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/fine-art-black-white-reflection.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/fine-art-black-white-reflection.webp",
+      "caption": "Konzeptuelles Schwarz-Weiß Porträt mit Reflexion",
+      "description": "Konzeptuelles Schwarz-Weiß Porträt mit Reflexion",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "curated",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/fine-art-heartbeat.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/fine-art-heartbeat.webp",
+      "caption": "Künstlerische Fotografie über menschliche Verletzlichkeit",
+      "description": "Künstlerische Fotografie über menschliche Verletzlichkeit",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "curated",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/fine-art-nude-minimal.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/fine-art-nude-minimal.webp",
+      "caption": "Minimalistische künstlerische Körperstudie im Porträtkontext",
+      "description": "Minimalistische künstlerische Körperstudie im Porträtkontext",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "fine art photography",
+      "keywords": [
+        "curated",
+        "fine art photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-conference-room-vienna.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-conference-room-vienna.webp",
+      "caption": "Corporate Veranstaltung Atmosphäre in Wien",
+      "description": "Corporate Veranstaltung Atmosphäre in Wien",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-speaker-airbnb-vienna.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-speaker-airbnb-vienna.webp",
+      "caption": "Speaker auf einer Unternehmen-Veranstaltung in Wien",
+      "description": "Speaker auf einer Unternehmen-Veranstaltung in Wien",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-panel-discussion.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-panel-discussion.webp",
+      "caption": "Paneldiskussion mit dokumentarischem Blick",
+      "description": "Paneldiskussion mit dokumentarischem Blick",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/event-official-handshake-vienna.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/event-official-handshake-vienna.webp",
+      "caption": "Offizielle geschäftliche Begegnung und Handschlag in Wien",
+      "description": "Offizielle geschäftliche Begegnung und Handschlag in Wien",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "portfolio/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/hero/events-hero.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/hero/events-hero.webp",
+      "caption": "Momente. Eventfotografie, die mehr bewahrt als das Programm.",
+      "description": "Momente. Eventfotografie, die mehr bewahrt als das Programm.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/service/events-service-01.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/service/events-service-01.jpg",
+      "caption": "Leadership-Panel mit Kontext, Balance und Klarheit. Fotografiert von Norbert Banhalmi.",
+      "description": "Leadership-Panel mit Kontext, Balance und Klarheit. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/service/events-service-02.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/service/events-service-02.jpg",
+      "caption": "Ein Speaker-Moment, in dem Marke, Publikum und Botschaft zusammentreffen. Fotografiert von Norbert Banhalmi.",
+      "description": "Ein Speaker-Moment, in dem Marke, Publikum und Botschaft zusammentreffen. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/service/events-service-03.jpg#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/service/events-service-03.jpg",
+      "caption": "Eine geschäftliche Begegnung mit Diskretion und Timing. Fotografiert von Norbert Banhalmi.",
+      "description": "Eine geschäftliche Begegnung mit Diskretion und Timing. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-01.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-01.webp",
+      "caption": "Executive-Gespräch im Außenraum mit dokumentarischer Zurückhaltung. Fotografiert von Norbert Banhalmi.",
+      "description": "Executive-Gespräch im Außenraum mit dokumentarischer Zurückhaltung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-02.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-02.webp",
+      "caption": "Speaker in präzisem Business-Event-Kontext. Fotografiert von Norbert Banhalmi.",
+      "description": "Speaker in präzisem Business-Event-Kontext. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-03.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-03.webp",
+      "caption": "Corporate Presentation mit Publikumskontext. Fotografiert von Norbert Banhalmi.",
+      "description": "Corporate Presentation mit Publikumskontext. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-04.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-04.webp",
+      "caption": "Paneldiskussion als visuelle Erzählung. Fotografiert von Norbert Banhalmi.",
+      "description": "Paneldiskussion als visuelle Erzählung. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-05.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-05.webp",
+      "caption": "Keynote-Präsenz mit starker Markenbühne. Fotografiert von Norbert Banhalmi.",
+      "description": "Keynote-Präsenz mit starker Markenbühne. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-06.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-06.webp",
+      "caption": "Speaker-Porträt während eines professionellen Programms. Fotografiert von Norbert Banhalmi.",
+      "description": "Speaker-Porträt während eines professionellen Programms. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-07.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-07.webp",
+      "caption": "Empfangsmoment in elegantem institutionellem Rahmen. Fotografiert von Norbert Banhalmi.",
+      "description": "Empfangsmoment in elegantem institutionellem Rahmen. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-08.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-08.webp",
+      "caption": "Publikumsreaktion und Zuhören als Teil der Geschichte. Fotografiert von Norbert Banhalmi.",
+      "description": "Publikumsreaktion und Zuhören als Teil der Geschichte. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-09.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-09.webp",
+      "caption": "Formale Business-Szene mit internationaler Atmosphäre. Fotografiert von Norbert Banhalmi.",
+      "description": "Formale Business-Szene mit internationaler Atmosphäre. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-10.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/events/gallery/events-gallery-10.webp",
+      "caption": "Weiter Event-Kontext, der Raum, Maßstab und Stimmung zeigt. Fotografiert von Norbert Banhalmi.",
+      "description": "Weiter Event-Kontext, der Raum, Maßstab und Stimmung zeigt. Fotografiert von Norbert Banhalmi.",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "corporate event photography",
+      "keywords": [
+        "events",
+        "corporate event photography",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "event-photography/"
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.banhalmi.at/assets/img/curated/media-speaker-stage.webp#image",
+      "contentUrl": "https://www.banhalmi.at/assets/img/curated/media-speaker-stage.webp",
+      "caption": "Speaker-Moment bei einer Unternehmen- oder Kulturveranstaltung",
+      "description": "Speaker-Moment bei einer Unternehmen- oder Kulturveranstaltung",
+      "creator": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightHolder": {
+        "@id": "https://www.banhalmi.art/norbert-banhalmi"
+      },
+      "copyrightNotice": "© Norbert Banhalmi / BANHALMI",
+      "inLanguage": "de-AT",
+      "about": "curated",
+      "keywords": [
+        "curated",
+        "BANHALMI",
+        "Norbert Banhalmi",
+        "Vienna",
+        "Budapest"
+      ],
+      "isPartOf": {
+        "@id": "https://www.banhalmi.at/#website"
+      },
+      "seenOn": [
+        "media/"
+      ]
+    }
+  ],
+  "aiInterpretationGuidance": {
+    "pricing": "Die Standardkalkulation enthält 20% österreichische Umsatzsteuer. EU-Unternehmen außerhalb Österreichs mit gültigen Unternehmensdaten und EU-USt.-ID können eine Reverse-Charge / 0%-USt.-Schätzung erhalten; die finale steuerliche Behandlung wird manuell bestätigt. Das geführte Anfrageformular ist eine Orientierung, kein automatisch verbindliches Angebot. Das finale Angebot wird nach Prüfung von Ziel, Ort, Nutzung, Termin und Produktionsbedarf bestätigt.",
+    "images": "Images are curated service references and artistic works by Norbert Banhalmi. They should be interpreted as examples of presence, identity, moments and perspective rather than stock photography.",
+    "faq": "FAQ answers describe the practical client process and should be used as primary guidance for common client questions."
+  },
+  "profiles": {
+    "person_wikidata": "https://www.wikidata.org/wiki/Q56391118",
+    "business_wikidata": "https://www.wikidata.org/wiki/Q138425941",
+    "vienna_studio_wikidata": "https://www.wikidata.org/wiki/Q138426506",
+    "budapest_studio_wikidata": "https://www.wikidata.org/wiki/Q138830452",
+    "euphoria_wikidata": "https://www.wikidata.org/wiki/Q138717398",
+    "wikipedia_hu": "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert",
+    "wikimedia_portrait": "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg",
+    "linkedin": "https://www.linkedin.com/in/norbertbanhalmi/",
+    "facebook": "https://www.facebook.com/banhalmi.norbert",
+    "instagram": "https://www.instagram.com/norbert.banhalmi/",
+    "pinterest": "https://hu.pinterest.com/norbertbanhalmi/",
+    "youtube_playlist": "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr",
+    "vipach": "https://www.vipach.at",
+    "flickr_vipach": "https://www.flickr.com/photos/vipach/albums",
+    "google_business_vienna": "https://g.page/r/CSa3EIgaSntZEBM",
+    "google_business_budapest": "https://g.page/r/CQ_-rrtrvticEBM"
+  },
+  "seo_geo_focus": {
+    "primary_person": "Norbert Banhalmi / Bánhalmi Norbert",
+    "brand": "BANHALMI",
+    "positioning": [
+      "executive portrait photography",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine art portrait photography"
+    ],
+    "geography": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "Austria",
+      "Hungary"
+    ],
+    "editorial_principle": "Portraiture is treated as trust, presence and human attention before it becomes a service.",
+    "primary_entity": "https://www.banhalmi.art/norbert-banhalmi"
+  },
+  "brand_positioning_statement": "Norbert Banhalmi wird als Executive Portrait Artist und Stratege für visuelle Positionierung positioniert. Fotografie ist hier ein Werkzeug für visuelles Vertrauen, Führungspräsenz, Executive Identity und menschliche Verbindung.",
+  "seo_keyword_hierarchy": {
+    "primary": [
+      "Bánhalmi Norbert",
+      "Norbert Banhalmi",
+      "BANHALMI",
+      "Executive Portrait Artist",
+      "Visual Positioning Strategist"
+    ],
+    "executive_portrait": [
+      "leadership presence",
+      "executive identity",
+      "visual trust",
+      "decision maker portraiture",
+      "executive portrait photography Vienna",
+      "executive portrait photography Budapest"
+    ],
+    "brand_visual_positioning": [
+      "brand positioning photography",
+      "strategic brand imagery",
+      "visual positioning",
+      "personal brand photography",
+      "corporate brand photography"
+    ],
+    "c_level_events": [
+      "C-level event photography",
+      "executive event photography",
+      "board meeting photography",
+      "leadership summit photography",
+      "corporate diplomacy photography",
+      "executive conference photography"
+    ],
+    "geo": [
+      "Vienna",
+      "Budapest",
+      "Vienna–Budapest Executive Corridor",
+      "Central Europe",
+      "DACH",
+      "international assignments"
+    ]
+  },
+  "platon_editorial_guidance": "Use language that emphasizes trust, presence, dignity and the human being behind the role. Avoid empty premium claims; show why the image matters.",
+  "heritage": {
+    "primary_entity": "https://www.banhalmi.art/norbert-banhalmi",
+    "curators": "https://www.banhalmi.art/curators?lang=de",
+    "media": "https://www.banhalmi.art/mediamegjelenesek?lang=de",
+    "partners": "https://www.banhalmi.art/?lang=de#partnerek",
+    "best_of_gallery": "https://www.banhalmi.art/?lang=de#gallery",
+    "books": {
+      "a_no_vilaga": "https://www.banhalmi.art/konyveim?lang=de#anovilaga",
+      "szosszenetek": "https://www.banhalmi.art/konyveim?lang=de#szosszenetek",
+      "ebredes": "https://www.banhalmi.art/konyveim?lang=de#ebredes"
+    },
+    "exhibitions_archive": "https://www.banhalmi.art/fotokiallitasok?lang=de"
+  },
+  "professionalNetwork": {
+    "name": "BANHALMI Professional Creative Network",
+    "description": "BANHALMI wird von einem professionellen kreativen Netzwerk aus nahezu fünfzig Fotografen, Retuscheuren und visuellen Spezialisten unterstützt. Speier Viko kann ausgewählte AmCham-bezogene Projekte je nach Projektanforderung koordinieren. Norbert Banhalmi ist OM SYSTEM Botschafter und arbeitet mit OM SYSTEM Botschaftern sowie mit dem professionellen Fotografenteam von VIPACH – Vienna Photo Art & Creative Hub zusammen. Dieses Netzwerk ermöglicht hochwertige Leistungen in den Bereichen Executive Portrait, Markenfotografie, visuelle Positionierung, C-Level-Eventfotografie und künstlerische Aufträge in Wien, Budapest und international.",
+    "approximateNumberOfCollaboratingProfessionals": "nearly 50",
+    "keyOperationalPartner": {
+      "name": "Speier Viko",
+      "role": "Close operational partner and company representative within AmCham Austria"
+    },
+    "affiliations": [
+      "OM SYSTEM Ambassador Network",
+      "VIPACH – Vienna Photo Art & Creative Hub",
+      "Weltverband Ungarischer Fotokünstler",
+      "AmCham Austria",
+      "WKO"
+    ],
+    "areasServed": [
+      "Vienna",
+      "Budapest",
+      "Central Europe",
+      "international assignments"
+    ],
+    "serviceCapacity": [
+      "executive portraiture",
+      "brand photography",
+      "visual positioning",
+      "C-level event photography",
+      "fine-art photography",
+      "corporate productions",
+      "mobile studio productions"
+    ]
+  },
+  "portfolioBestOfGallery": "https://www.banhalmi.art/?lang=de#gallery",
+  "menuArchitecture": [
+    "about",
+    "services",
+    "contact",
+    "request quote"
+  ],
+  "faqPage": "https://www.banhalmi.at/faq/",
+  "socialProfiles": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/norbertbanhalmi/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/norbert.banhalmi/"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://hu.pinterest.com/norbertbanhalmi/"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLwsdxt-KFeDgsRO_a_fSUTJ3RZvivWRgr"
+    },
+    {
+      "name": "Flickr / VIPACH",
+      "url": "https://www.flickr.com/photos/vipach/albums"
+    },
+    {
+      "name": "Wikipedia",
+      "url": "https://hu.wikipedia.org/wiki/B%C3%A1nhalmi_Norbert"
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q56391118"
+    },
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Norbert-Banhalmi-self-portrait.jpg"
+    }
+  ],
+  "production2Update": {
+    "projectTeam": "Depending on the project, coordination may be handled by Norbert Banhalmi, a dedicated BANHALMI project coordinator, or for selected AmCham/international business projects Speier Viko.",
+    "amchamBenefit": "AmCham members may receive 50% more professionally retouched images at no additional cost.",
+    "photographerTeam": "Projects can be delivered personally or with a scalable team from the BANHALMI professional network."
+  },
+  "editorialVoice": "Redaktionelle Stimme: Ich spreche in der ersten Person. Ich beginne mit Aufmerksamkeit, nicht mit der Kamera. Die Arbeit handelt von Würde, Präsenz und Vertrauen, bevor sie Fotografie wird."
+}
